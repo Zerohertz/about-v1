@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-props-no-spreading */
+
 import 'jquery/dist/jquery.slim';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

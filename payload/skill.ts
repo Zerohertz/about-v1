@@ -58,9 +58,9 @@ const mlops: ISkill.Skill = {
       level: 1,
     },
   ],
-}
+};
 
-const ci_cd: ISkill.Skill = {
+const ciCd: ISkill.Skill = {
   category: 'CI/CD',
   items: [
     {
@@ -94,7 +94,7 @@ const ci_cd: ISkill.Skill = {
   ],
 };
 
-const data_engineering: ISkill.Skill = {
+const dataEngineering: ISkill.Skill = {
   category: 'Data Engineering',
   items: [
     {
@@ -158,7 +158,7 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programming, mlops, ci_cd, data_engineering, cloud, database, etc],
+  skills: [programming, mlops, ciCd, dataEngineering, cloud, database, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

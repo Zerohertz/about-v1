@@ -10,13 +10,13 @@ const openSource: IOpenSource.Payload = {
           content: '전문연구요원을 위한 데이터 적재 및 시각화',
           weight: 'MEDIUM',
           href: 'https://github.com/Zerohertz/awesome-jmy',
-          postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-jmy.svg?style=popout'
+          postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-jmy.svg?style=popout',
         },
         {
           content: '산업기능요원을 위한 데이터 적재 및 시각화',
           weight: 'MEDIUM',
           href: 'https://github.com/Zerohertz/awesome-sgy',
-          postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-sgy.svg?style=popout'
+          postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-sgy.svg?style=popout',
         },
       ],
     },

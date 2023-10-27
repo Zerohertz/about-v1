@@ -45,7 +45,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: "Greedy하게 발전하는 Machine Learning Engineer.",
+    title: 'Greedy하게 발전하는 Machine Learning Engineer.',
     icon: faSeedling,
   },
 };
