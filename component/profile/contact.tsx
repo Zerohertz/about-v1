@@ -19,7 +19,7 @@ export default function ProfileContact({
 
 function createLink(payload: IProfile.Contact) {
   if (payload.badge) {
-    return <Badge color="light">{payload.title || payload.link}</Badge>;
+    return <Badge color="secondary">{payload.title || payload.link}</Badge>;
   }
   return payload.link ? (
     <HrefTargetBlank url={payload.link} text={payload.title} />
