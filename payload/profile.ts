@@ -1,6 +1,6 @@
 import { faBolt, faEnvelope, faSeedling } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
