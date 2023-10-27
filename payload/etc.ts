@@ -1,24 +1,14 @@
 import { IEtc } from '../component/etc/IEtc';
 
 const etc: IEtc.Payload = {
-  disable: true,
+  disable: false,
 
   list: [
     {
-      title: 'Capstone Design Contest',
-      subTitle: 'Grand Prize',
-      startedAt: '2015-05',
-    },
-    {
-      title: 'IT Education Service Activities',
-      subTitle: 'Wrold Friends IT Volunteer',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
-    },
-    {
-      title: 'Information Olympiad',
-      subTitle: 'Silver Prize',
-      startedAt: '2008-05',
+      title: '전문연구요원',
+      subTitle: '',
+      startedAt: '2023-02',
+      endedAt: '2026-02',
     },
   ],
 };
