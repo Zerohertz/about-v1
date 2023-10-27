@@ -19,6 +19,9 @@ export declare namespace IExperience {
     /** ### (직장)경험 명 */
     title: string;
 
+    /** ### (직장) 링크 */
+    link?: string;
+
     /** ### (직장)역할 명 (or Subtitle) */
     position: string;
 
