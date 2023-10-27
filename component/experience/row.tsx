@@ -17,7 +17,7 @@ export default function ExperienceRow({
           {createWorkingPeriod(item.startedAt, item.endedAt)}
         </Col>
         <Col sm={12} md={9}>
-          <h4>{item.title}</h4>
+          <h4><a href={item.link} style={{ color: '#000000' }}>{item.title}</a></h4>
           <i style={Style.gray}>{item.position}</i>
           <ul className="pt-3">
             {item.descriptions.map((description, descIndex) => (

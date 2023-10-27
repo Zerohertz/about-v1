@@ -1,7 +1,6 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faBolt, faEnvelope, faSeedling } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,39 +9,44 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: 'Hyogeun Oh',
+    small: '(Zerohertz)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'ohg3417@gmail.com',
+      link: 'mailto:ohg3417@gmail.com',
       icon: faEnvelope,
     },
+    // {
+    //   title: 'Curriculum Vitae',
+    //   link: '',
+    //   icon: faScroll,
+    // },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
-    },
-    {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'GitHub @Zerohertz',
+      link: 'https://github.com/Zerohertz',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      title: 'Tech Blog',
+      link: 'https://zerohertz.github.io/',
+      icon: faBolt,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/hyogeun-oh-67470b242/',
+      icon: faLinkedin,
+    },
+    {
+      title: 'Google Scholar',
+      link: 'https://scholar.google.com/citations?user=TxiJyc0AAAAJ',
+      icon: faGoogle,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    title: "Greedy하게 발전하는 Machine Learning Engineer.",
+    icon: faSeedling,
   },
 };
 

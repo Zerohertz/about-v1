@@ -4,56 +4,33 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
-      title: 'node',
+      title: 'Awesome 병역 특례',
       descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
         {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
+          content: '전문연구요원을 위한 데이터 적재 및 시각화',
+          weight: 'MEDIUM',
+          href: 'https://github.com/Zerohertz/awesome-jmy',
+          postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-jmy.svg?style=popout'
         },
         {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
+          content: '산업기능요원을 위한 데이터 적재 및 시각화',
+          weight: 'MEDIUM',
+          href: 'https://github.com/Zerohertz/awesome-sgy',
+          postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-sgy.svg?style=popout'
         },
       ],
     },
     {
-      title: 'NestJS',
+      title: 'SPTSv2',
       descriptions: [
         {
-          content: 'A progressive Node.js framework',
+          content: 'bytedance/SPTSv2',
+          weight: 'MEDIUM',
+          href: 'https://github.com/bytedance/SPTSv2',
+          postImage: 'https://img.shields.io/github/stars/bytedance/SPTSv2.svg?style=popout',
         },
-        {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'Developer Community',
-      descriptions: [
-        {
-          content: 'Presentation in 2019',
-        },
-        {
-          content: 'Hackathon participation in 2017',
-        },
+        { content: 'Tensor 차원의 오류 해결 및 일반화' },
+        { content: '예측, 평가, 시각화에 대한 코드 일반화' },
       ],
     },
   ],
