@@ -10,18 +10,17 @@ const presentation: IPresentation.Payload = {
       at: '2023-09',
       descriptions: [
         {
-          content: 'Patent: Classification and Redundancy Quantitative Evaluation Algorithm for Highly Efficient Fault Diagnosis of Rotary Machines in Roll-to-Roll systems',
+          content:
+            'Patent: Classification and Redundancy Quantitative Evaluation Algorithm for Highly Efficient Fault Diagnosis of Rotary Machines in Roll-to-Roll systems',
           weight: 'BOLD',
           href: 'http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame',
           descriptions: [
             {
-              content:
-                'Application number (date): 1020220017419 (2022.02.10)',
+              content: 'Application number (date): 1020220017419 (2022.02.10)',
               weight: 'MEDIUM',
             },
             {
-              content:
-                'Grant number (date): 1025842600000 (2023.09.25)',
+              content: 'Grant number (date): 1025842600000 (2023.09.25)',
               weight: 'MEDIUM',
             },
           ],
