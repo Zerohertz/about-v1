@@ -41,7 +41,7 @@ const experience: IExperience.Payload = {
       endedAt: '2021-02',
       descriptions: [
         'Advisor: Changwoo Lee',
-        'Bearing 상태 진단 모델 및 Graphic User Interface 개발'
+        'Bearing 상태 진단 모델 및 Graphic User Interface 개발',
       ],
       skillKeywords: ['MATLAB', 'Research', 'Machine Learning', 'Deep Learning'],
     },
@@ -51,10 +51,7 @@ const experience: IExperience.Payload = {
       position: 'Research Intern',
       startedAt: '2018-06',
       endedAt: '2019-11',
-      descriptions: [
-        'Advisor: Hoeryong Jung',
-        'Unreal Engine 기반 가상 현실 환경 구축'
-      ],
+      descriptions: ['Advisor: Hoeryong Jung', 'Unreal Engine 기반 가상 현실 환경 구축'],
       skillKeywords: ['Unreal Engine', 'C++', 'Research'],
     },
   ],
