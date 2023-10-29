@@ -26,6 +26,7 @@ const experience: IExperience.Payload = {
       startedAt: '2021-03',
       endedAt: '2023-02',
       descriptions: [
+        'Advisor: Changwoo Lee',
         '다양한 공정에 대한 상태 진단 모델 연구개발',
         '실시간 모니터링을 위한 Graphic User Interface 개발',
         'Roll-to-Roll 연속 공정의 장력 및 온도에 따른 전산 유체 역학 (CFD) 시뮬레이션 수행',
@@ -38,7 +39,10 @@ const experience: IExperience.Payload = {
       position: 'Research Intern',
       startedAt: '2019-11',
       endedAt: '2021-02',
-      descriptions: ['Bearing 상태 진단 모델 및 Graphic User Interface 개발'],
+      descriptions: [
+        'Advisor: Changwoo Lee',
+        'Bearing 상태 진단 모델 및 Graphic User Interface 개발'
+      ],
       skillKeywords: ['MATLAB', 'Research', 'Machine Learning', 'Deep Learning'],
     },
     {
@@ -47,7 +51,10 @@ const experience: IExperience.Payload = {
       position: 'Research Intern',
       startedAt: '2018-06',
       endedAt: '2019-11',
-      descriptions: ['Unreal Engine 기반 가상 현실 환경 구축'],
+      descriptions: [
+        'Advisor: Hoeryong Jung',
+        'Unreal Engine 기반 가상 현실 환경 구축'
+      ],
       skillKeywords: ['Unreal Engine', 'C++', 'Research'],
     },
   ],
