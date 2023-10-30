@@ -3,11 +3,26 @@ import { Row, Col, Badge } from 'reactstrap';
 import { ISkill } from './ISkill';
 import { Style } from '../common/Style';
 import Util from '../common/Util';
+import React, { useState, useEffect } from 'react';
 
 export default function SkillRow({
   skill,
   index,
 }: PropsWithChildren<{ skill: ISkill.Skill; index: number }>) {
+  
+  const [isVerticalScreen, setIsVerticalScreen] = useState(false);
+
+  useEffect(() => {
+    setIsVerticalScreen(window.innerHeight > window.innerWidth);
+    const handleResize = () => {
+      setIsVerticalScreen(window.innerHeight > window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div>
       {index > 0 ? <hr /> : ''}
@@ -17,14 +32,14 @@ export default function SkillRow({
         </Col>
         <Col sm={12} md={9}>
           {/* {skill.items.map((item) => JSON.stringify(item, null, 2))} */}
-          {createCalculatedSkillItems(skill.items)}
+          {createCalculatedSkillItems(skill.items, isVerticalScreen)} {/* isVerticalScreen을 인자로 전달 */}
         </Col>
       </Row>
     </div>
   );
 }
 
-function createCalculatedSkillItems(items: ISkill.Item[]) {
+function createCalculatedSkillItems(items: ISkill.Item[], isVerticalScreen: boolean) {
   const log = Util.debug('SkillRow:createCalculatedSkillItems');
 
   /**
@@ -44,27 +59,48 @@ function createCalculatedSkillItems(items: ISkill.Item[]) {
   log('origin', items, items.length, splitPoint);
   log('list', list);
 
-  return (
-    <Row className="mt-2 mt-md-0">
-      {list.map((skills, index) => {
-        return (
-          <Col md={4} xs={12} key={index.toString()}>
-            <ul>
-              {skills.map((skill, skillIndex) => {
-                return (
-                  <li key={skillIndex.toString()}>
-                    {createBadge(skill.level)}
-                    {skill.title}
-                  </li>
-                );
-              })}
-            </ul>
-          </Col>
-        );
-      })}
-    </Row>
-  );
+  if (isVerticalScreen) {
+    return (
+      <Row className="mt-2 mt-md-0">
+        <Col xs={12}>
+          <ul>
+            {items.map((skill, skillIndex) => {
+              return (
+                <li key={skillIndex.toString()}>
+                  {createBadge(skill.level)}
+                  {skill.title}
+                </li>
+              );
+            })}
+          </ul>
+        </Col>
+      </Row>
+    );
+  }
+  else {
+    return (
+      <Row className="mt-2 mt-md-0">
+        {list.map((skills, index) => {
+          return (
+            <Col md={4} xs={12} key={index.toString()}>
+              <ul>
+                {skills.map((skill, skillIndex) => {
+                  return (
+                    <li key={skillIndex.toString()}>
+                      {createBadge(skill.level)}
+                      {skill.title}
+                    </li>
+                  );
+                })}
+              </ul>
+            </Col>
+          );
+        })}
+      </Row>
+    );
+  }
 }
+
 
 function createBadge(level?: ISkill.Item['level']) {
   if (!level) {
