@@ -97,7 +97,7 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
       return (
         <li style={getFontWeight(weight)}>
           {content}{' '}
-          <img src={postImage} alt={postImage} style={{ maxWidth: '70%', margin: '0 auto' }} />
+          <img src={postImage} alt={postImage} style={{ maxWidth: '70%', display: 'block' }} />
         </li>
       );
     }
