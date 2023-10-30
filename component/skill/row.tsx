@@ -11,9 +11,9 @@ export default function SkillRow({
   const [isVerticalScreen, setIsVerticalScreen] = useState(false);
 
   useEffect(() => {
-    setIsVerticalScreen(window.innerHeight > window.innerWidth * 1.8);
+    setIsVerticalScreen(window.innerHeight > window.innerWidth);
     const handleResize = () => {
-      setIsVerticalScreen(window.innerHeight > window.innerWidth * 1.8);
+      setIsVerticalScreen(window.innerHeight > window.innerWidth);
     };
     window.addEventListener('resize', handleResize);
     return () => {
