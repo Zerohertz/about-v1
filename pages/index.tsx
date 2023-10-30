@@ -26,28 +26,30 @@ function Yosume() {
         <title>{Payload._global.headTitle}</title>
         <link rel="shortcut icon" href={Payload._global.favicon} />
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCW0CR8M8X"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCW0CR8M8X" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-ZCW0CR8M8X');
-          `
-        }}>
-        </script>
+          `,
+          }}
+        />
         {/* Naver Analytics */}
-        <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
+        <script type="text/javascript" src="//wcs.naver.net/wcslog.js" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
             if(!wcs_add) var wcs_add = {};
             wcs_add["wa"] = "7e701a42aec008";
             if(window.wcs) {
               wcs_do();
             }
-          `
-        }}>
-        </script>
+          `,
+          }}
+        />
       </Head>
       <Container style={Style.global}>
         <Profile.Component payload={Payload.profile} />
