@@ -89,7 +89,7 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
       <Col md={12} xs={isWorking ? 5 : 3} className="text-md-right text-center">
         {isWorking ? (
           <Badge color="primary" className="mr-1">
-            재직 중
+            Currently Working
           </Badge>
         ) : (
           ''

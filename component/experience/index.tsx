@@ -68,5 +68,13 @@ function getFormattingExperienceTotalDuration(payload: IExperience.Payload) {
 
   const totalExperience = durations.reduce((prev, cur) => prev.plus(cur), Duration.fromMillis(0));
 
-  return totalExperience.toFormat(`총 ${Util.LUXON_DATE_FORMAT.DURATION_KINDNESS}`);
+  const totalMonths = Math.floor(totalExperience.as('months'));
+  const years = Math.floor(totalMonths / 12);
+  const months = totalMonths % 12;
+
+  if (years === 0) {
+    return `Total ${months} month${months > 1 ? 's' : ''}`;
+  }
+
+  return `Total ${years} year${years > 1 ? 's' : ''} ${months} month${months > 1 ? 's' : ''}`;
 }
