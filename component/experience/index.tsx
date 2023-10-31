@@ -9,6 +9,7 @@ import { IExperience } from './IExperience';
 import ExperienceRow from './row';
 
 type Payload = IExperience.Payload;
+type TimeCount = { endedAt: DateTime; startedAt: DateTime };
 
 export const Experience = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
@@ -49,8 +50,11 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
 }
 
 function getFormattingExperienceTotalDuration(payload: IExperience.Payload) {
-  const durations = payload.list
+  const durations = (payload.list
     .map((item) => {
+      if (item.title.includes('Lab')) {
+        return null;
+      }
       return {
         endedAt: item.endedAt
           ? DateTime.fromFormat(item.endedAt, Util.LUXON_DATE_FORMAT.YYYY_LL)
@@ -58,9 +62,9 @@ function getFormattingExperienceTotalDuration(payload: IExperience.Payload) {
         startedAt: DateTime.fromFormat(item.startedAt, Util.LUXON_DATE_FORMAT.YYYY_LL),
       };
     })
-    .map(({ endedAt, startedAt }) => {
-      return endedAt.plus({ month: 1 }).diff(startedAt);
-    });
+    .filter((item) => item) as TimeCount[]).map(({ endedAt, startedAt }) => {
+    return endedAt.plus({ month: 1 }).diff(startedAt);
+  });
 
   const totalExperience = durations.reduce((prev, cur) => prev.plus(cur), Duration.fromMillis(0));
 
