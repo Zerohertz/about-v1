@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2023-10-31",
+  "lastestUpdatedAt": "2023-11-02",
   "version": "1.2.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -28,9 +28,9 @@
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "Hyogeun Oh",
+    "email": "ohg3417@gmail.com",
+    "url": "https://zerohertz.github.io"
   },
   "contributors": [],
   "license": "MIT",
