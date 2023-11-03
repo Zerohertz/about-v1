@@ -4,10 +4,15 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'TwinReader 연구개발',
+      title: 'AI 기반 OCR Solution TwinReader 연구개발',
       startedAt: '2023-02',
       where: 'AgileSoDA',
       descriptions: [
+        { 
+          content: 'TwinReader',
+          href: 'http://www.agilesoda.ai/sub/twin_reader.php',
+          weight: 'MEDIUM',
+        },
         { content: '문서 영역 탐지 모델 개발' },
         { content: '회전된 문서에 대한 방향 분류 모델 및 정방향 전환 후처리 모듈 개발' },
         { content: 'STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발' },
@@ -41,6 +46,7 @@ const project: IProject.Payload = {
           content: 'Zerohertz/k8s-on-premise',
           weight: 'MEDIUM',
           href: 'https://github.com/Zerohertz/k8s-on-premise',
+          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/279639181-6d0a07c4-a99f-43f3-8632-236ecac7ced9.png',
         },
         {
           content: 'Blog posts',
@@ -63,7 +69,7 @@ const project: IProject.Payload = {
           postImage:
             'https://user-images.githubusercontent.com/42334717/227575043-5c65230c-f283-46b0-a46c-0569ee20cd56.gif',
         },
-        { content: 'YOLOv5 기반 logo detection 모델 개발' },
+        { content: 'YOLOv5 기반 logo segmentation 모델 개발' },
         {
           content: 'Amazon EC2 Inf1 기반 모델 배포 서버 구축',
           postImage:
