@@ -9,7 +9,10 @@ const experience: IExperience.Payload = {
       link: 'http://www.agilesoda.com/',
       position: 'Machine Learning Research Engineer',
       startedAt: '2023-02',
-      descriptions: ['AI 기반 OCR Solution TwinReader 연구개발', '화상 환자 진료보조 AI 서비스 개발'],
+      descriptions: [
+        'AI 기반 OCR Solution TwinReader 연구개발',
+        '화상 환자 진료보조 AI 서비스 개발',
+      ],
       skillKeywords: [
         'Python',
         'Docker',

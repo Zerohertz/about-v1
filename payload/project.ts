@@ -8,7 +8,7 @@ const project: IProject.Payload = {
       startedAt: '2023-02',
       where: 'AgileSoDA',
       descriptions: [
-        { 
+        {
           content: 'TwinReader',
           href: 'http://www.agilesoda.ai/sub/twin_reader.php',
           weight: 'MEDIUM',
@@ -46,7 +46,8 @@ const project: IProject.Payload = {
           content: 'Zerohertz/k8s-on-premise',
           weight: 'MEDIUM',
           href: 'https://github.com/Zerohertz/k8s-on-premise',
-          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/279639181-6d0a07c4-a99f-43f3-8632-236ecac7ced9.png',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/279639181-6d0a07c4-a99f-43f3-8632-236ecac7ced9.png',
         },
         {
           content: 'Blog posts',
