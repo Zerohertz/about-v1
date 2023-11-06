@@ -73,7 +73,7 @@ const project: IProject.Payload = {
       where: 'Personal Project',
       descriptions: [
         {
-          content: 'Zerohertz/k8s-on-premise',
+          content: 'Zerohertz/k8s-on-premise (GitHub)',
           weight: 'MEDIUM',
           href: 'https://github.com/Zerohertz/k8s-on-premise',
           postImage:
