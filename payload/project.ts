@@ -16,17 +16,20 @@ const project: IProject.Payload = {
         {
           content: 'Jenkins 기반 CI/CD pipeline 구축',
           href: 'https://jenkins.zerohertz.xyz/blue/organizations/jenkins/zerohertzLib/activity',
-          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280287548-6ff1606f-0c39-455b-b2dd-1b80a9dea4e7.gif',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280287548-6ff1606f-0c39-455b-b2dd-1b80a9dea4e7.gif',
         },
         {
           content: 'Sphinx를 통한 문서화',
           href: 'https://zerohertz.github.io/zerohertzLib/',
-          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280719180-e68ff9f8-86d1-45d9-96ac-27ad1f57f987.png',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280719180-e68ff9f8-86d1-45d9-96ac-27ad1f57f987.png',
         },
         {
           content: 'PyPI 배포',
           href: 'https://pypi.org/project/zerohertzLib/',
-          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280719907-70fb85da-f214-4605-8798-b63a6f918cc7.png',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280719907-70fb85da-f214-4605-8798-b63a6f918cc7.png',
         },
       ],
     },
