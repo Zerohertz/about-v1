@@ -39,16 +39,15 @@ const project: IProject.Payload = {
       where: 'AgileSoDA',
       descriptions: [
         {
-          content: 'TwinReader',
+          content: 'TwinReader 제품 소개 페이지',
           href: 'http://www.agilesoda.ai/sub/twin_reader.php',
           weight: 'MEDIUM',
         },
-        { content: '문서 영역 탐지 모델 개발' },
+        { content: '문서 영역 탐지 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발' },
         { content: '회전된 문서에 대한 방향 분류 모델 및 정방향 전환 후처리 모듈 개발' },
-        { content: 'STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발' },
-        { content: '이미지 전, 후처리 알고리즘 개선' },
-        { content: '모델 배포를 위한 Triton Inference Server 개발' },
-        { content: '전, 후처리 및 시각화를 위한 python 패키지 개발 및 알고리즘 개선' },
+        { content: '모델 배포를 위한 triton inference server 개발' },
+        { content: '전, 후처리 및 시각화를 위한 python package 개발 및 알고리즘 개선' },
+        { content: 'Kubernetes 기반의 triton inference server 및 flask server에 package 적용 및 개선' },
       ],
     },
     {
@@ -94,7 +93,7 @@ const project: IProject.Payload = {
       where: 'BOAZ',
       descriptions: [
         {
-          content: 'Team-BoonMoSa',
+          content: 'Team-BoonMoSa (GitHub)',
           weight: 'MEDIUM',
           href: 'https://github.com/Team-BoonMoSa',
           postImage:
