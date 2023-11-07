@@ -2,7 +2,7 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview.png';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = 'Resume: Hyogeun Oh (Zerohertz)';
+const title = 'Resume: Hyogeun Oh (오효근)';
 const description = "Hyogeun Oh's Resume";
 
 export const _global: IGlobal.Payload = {
@@ -24,7 +24,7 @@ export const _global: IGlobal.Payload = {
       profile: {
         firstName: 'Hyogeun',
         lastName: 'Oh',
-        username: '',
+        username: 'Zerohertz',
         gender: 'male',
       },
     },

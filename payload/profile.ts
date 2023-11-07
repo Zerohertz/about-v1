@@ -10,7 +10,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: 'Hyogeun Oh',
-    small: '(Zerohertz)',
+    small: '(오효근)',
   },
   contact: [
     {
@@ -24,7 +24,7 @@ const profile: IProfile.Payload = {
     //   icon: faScroll,
     // },
     {
-      title: 'GitHub @Zerohertz',
+      title: 'GitHub',
       link: 'https://github.com/Zerohertz',
       icon: faGithub,
     },
