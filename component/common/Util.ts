@@ -21,9 +21,9 @@ function getFormattingDuration(from: DateTime, to: DateTime = DateTime.local()) 
   const months = totalMonths % 12;
 
   if (years === 0) {
-    return `${months} month${months > 1 ? 's' : ''}`;
+    return `${months} mo${months > 1 ? 's' : ''}`;
   }
-  return `${years} year${years > 1 ? 's' : ''} ${months} month${months > 1 ? 's' : ''}`;
+  return `${years} yr${years > 1 ? 's' : ''} ${months} mo${months > 1 ? 's' : ''}`;
 }
 
 function debug(channel: string) {
