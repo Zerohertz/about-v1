@@ -78,7 +78,7 @@ const ciCd: ISkill.Skill = {
     {
       title: 'GitHub Actions',
       level: 1,
-    }
+    },
   ],
 };
 
