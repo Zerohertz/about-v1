@@ -63,7 +63,15 @@ const project: IProject.Payload = {
           content:
             '문서 영역 탐지 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발',
         },
-        { content: '회전된 문서에 대한 방향 분류 모델 및 정방향 전환 후처리 모듈 개발' },
+        {
+          content: '회전된 문서에 대한 방향 분류 모델 및 정방향 전환 후처리 모듈 개발',
+          descriptions: [
+            {
+              content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
+              postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
+            }
+          ]
+        },
         {
           content: '모델 배포를 위한 triton inference server 개발',
           descriptions: [
@@ -79,7 +87,7 @@ const project: IProject.Payload = {
           content: '전, 후처리 및 시각화를 위한 python package 개발 및 알고리즘 개선',
           descriptions: [
             {
-              content: '알고리즘 개선을 통한 STD 모델의 후처리 개선 (74.12% 단축)',
+              content: 'Cython 기반의 알고리즘 개선을 통한 STD 모델의 후처리 속도 개선 (74.12% 단축)',
               href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
               postImage:
                 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
@@ -103,7 +111,7 @@ const project: IProject.Payload = {
         {
           content: '모델 배포를 위한 Triton Inference Server와 API 설계 및 개발',
           postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/4639cd97-0363-4d66-8f84-a1ade9a80177',
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/278788717-4639cd97-0363-4d66-8f84-a1ade9a80177.png',
         },
       ],
     },
