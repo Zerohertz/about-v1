@@ -14,8 +14,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content:
-            '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
+          content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
         },
         { content: 'Streamlit을 통한 Demo 페이지 개발 및 Kuberntes 기반 배포' },
       ],
@@ -71,9 +70,10 @@ const project: IProject.Payload = {
             {
               content: 'TensorRT를 통한 STD 모델의 추론 시간 개선 (87.31% 단축)',
               href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
-              postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
-            }
-          ]
+              postImage:
+                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
+            },
+          ],
         },
         {
           content: '전, 후처리 및 시각화를 위한 python package 개발 및 알고리즘 개선',
@@ -81,9 +81,10 @@ const project: IProject.Payload = {
             {
               content: '알고리즘 개선을 통한 STD 모델의 후처리 개선 (74.12% 단축)',
               href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
-              postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
-            }
-          ]
+              postImage:
+                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
+            },
+          ],
         },
         {
           content:
