@@ -6,7 +6,7 @@ const etc: IEtc.Payload = {
   list: [
     {
       title: '전문연구요원',
-      subTitle: '',
+      subTitle: 'AgileSoDA',
       startedAt: '2023-02',
       endedAt: '2026-02',
     },
