@@ -12,6 +12,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         'AI 기반 OCR Solution TwinReader 연구개발',
         '화상 환자 진료보조 AI 서비스 개발',
+        'AI 기반 자동차 파손 및 심도 인식 제품 TwinCar 연구개발',
       ],
       skillKeywords: [
         'Python',
