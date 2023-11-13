@@ -4,6 +4,23 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'AI 기반 자동차 파손 및 심도 인식 제품 TwinCar 연구개발',
+      startedAt: '2023-11',
+      where: 'AgileSoDA',
+      descriptions: [
+        {
+          content: 'TwinCar 제품 소개 페이지',
+          href: 'http://www.agilesoda.com/sub/twin_car.php',
+          weight: 'MEDIUM',
+        },
+        {
+          content:
+            '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
+        },
+        { content: 'Streamlit을 통한 Demo 페이지 개발 및 Kuberntes 기반 배포' },
+      ],
+    },
+    {
       title: 'Python package 개발 및 CI/CD pipeline 구축',
       startedAt: '2023-11',
       where: 'Personal Project',
@@ -48,8 +65,26 @@ const project: IProject.Payload = {
             '문서 영역 탐지 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발',
         },
         { content: '회전된 문서에 대한 방향 분류 모델 및 정방향 전환 후처리 모듈 개발' },
-        { content: '모델 배포를 위한 triton inference server 개발' },
-        { content: '전, 후처리 및 시각화를 위한 python package 개발 및 알고리즘 개선' },
+        {
+          content: '모델 배포를 위한 triton inference server 개발',
+          descriptions: [
+            {
+              content: 'TensorRT를 통한 STD 모델의 추론 시간 개선 (87.31% 단축)',
+              href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
+              postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
+            }
+          ]
+        },
+        {
+          content: '전, 후처리 및 시각화를 위한 python package 개발 및 알고리즘 개선',
+          descriptions: [
+            {
+              content: '알고리즘 개선을 통한 STD 모델의 후처리 개선 (74.12% 단축)',
+              href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
+              postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
+            }
+          ]
+        },
         {
           content:
             'Kubernetes 기반의 triton inference server 및 flask server에 package 적용 및 개선',
