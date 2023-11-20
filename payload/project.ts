@@ -13,6 +13,7 @@ const project: IProject.Payload = {
           href: 'http://www.agilesoda.com/sub/twin_car.php',
           weight: 'MEDIUM',
         },
+        { content: 'PoC 수행을 위한 차종 분류 모델 개발' },
         {
           content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
         },
@@ -33,19 +34,19 @@ const project: IProject.Payload = {
           content: 'Jenkins 기반 CI/CD pipeline 구축',
           href: 'https://jenkins.zerohertz.xyz/blue/organizations/jenkins/zerohertzLib/activity',
           postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280287548-6ff1606f-0c39-455b-b2dd-1b80a9dea4e7.gif',
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284292801-35b6affc-eb9d-43c9-abf9-4c82b2963d39.png',
         },
         {
           content: 'Sphinx를 통한 문서화',
           href: 'https://zerohertz.github.io/zerohertzLib/',
           postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280719180-e68ff9f8-86d1-45d9-96ac-27ad1f57f987.png',
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284295191-de5f331b-5825-4dfb-a49c-2565835c93f0.png',
         },
         {
           content: 'PyPI 배포',
           href: 'https://pypi.org/project/zerohertzLib/',
           postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/280719907-70fb85da-f214-4605-8798-b63a6f918cc7.png',
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284295266-1f4a2b20-1046-4188-b2a8-3152756a3f08.png',
         },
       ],
     },
