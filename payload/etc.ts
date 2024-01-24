@@ -11,10 +11,13 @@ const etc: IEtc.Payload = {
       endedAt: '2026-02',
     },
     {
-      title: 'BOAZ 19기 수료',
-      subTitle: '국내 최초 빅데이터 동아리 (분석 부문)',
+      title: 'BOAZ 19기 수료 (분석 부문)',
+      subTitle: '국내 최초 빅데이터 동아리',
       startedAt: '2022-07',
       endedAt: '2023-07',
+      descriptions: [
+        {content: 'Study 및 Project (GitHub)', href: 'https://github.com/stars/Zerohertz/lists/99-boaz'},
+      ]
     },
   ],
 };

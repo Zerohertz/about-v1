@@ -1,3 +1,4 @@
+import { IRow } from '../common/IRow';
 import { ICommon } from '../common/ICommon';
 
 export declare namespace IEtc {
@@ -19,6 +20,8 @@ export declare namespace IEtc {
 
     /** ### 기타 항목 서브 타이틀 */
     subTitle: string;
+
+    descriptions?: IRow.Description[];
 
     /**
      *  ### 기타 항목 시작 시점
