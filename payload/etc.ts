@@ -16,8 +16,11 @@ const etc: IEtc.Payload = {
       startedAt: '2022-07',
       endedAt: '2023-07',
       descriptions: [
-        {content: 'Study 및 Project (GitHub)', href: 'https://github.com/stars/Zerohertz/lists/99-boaz'},
-      ]
+        {
+          content: 'Study 및 Project (GitHub)',
+          href: 'https://github.com/stars/Zerohertz/lists/99-boaz',
+        },
+      ],
     },
   ],
 };

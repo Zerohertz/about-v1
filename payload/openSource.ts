@@ -28,7 +28,8 @@ const openSource: IOpenSource.Payload = {
           weight: 'REGULAR',
           href: 'https://github.com/bytedance/SPTSv2/pull/1',
         },
-        { content: 'Tensor 차원의 오류 해결 및 예측, 평가, 시각화에 대한 일반화',
+        {
+          content: 'Tensor 차원의 오류 해결 및 예측, 평가, 시각화에 대한 일반화',
           weight: 'REGULAR',
           href: 'https://github.com/bytedance/SPTSv2/pull/3',
           postImage: 'https://img.shields.io/github/stars/bytedance/SPTSv2.svg?style=popout',
