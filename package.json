@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://zerohertz.github.io/resume",
+  "homepage": "https://zerohertz.github.io/about",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zerohertz/resume.git"
+    "url": "git+https://github.com/Zerohertz/about.git"
   },
   "keywords": [
     "resume",

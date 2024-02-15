@@ -63,13 +63,13 @@ const project: IProject.Payload = {
         {
           content:
             '문서 영역 탐지 모델, 회전 문서 분류 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발',
-            descriptions: [
-              {
-                content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
-                postImage:
-                  'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
-              },
-            ]
+          descriptions: [
+            {
+              content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
+              postImage:
+                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
+            },
+          ],
         },
         {
           content: '모델 배포를 위한 kubernetes 기반의 triton inference server 개발',
