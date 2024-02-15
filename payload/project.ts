@@ -17,7 +17,7 @@ const project: IProject.Payload = {
         {
           content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
         },
-        { content: 'Streamlit을 통한 Demo 페이지 개발 및 Kuberntes 기반 배포' },
+        { content: 'Streamlit을 통한 demo 페이지 개발 및 kuberntes 기반 배포' },
       ],
     },
     {
