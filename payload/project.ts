@@ -62,20 +62,17 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '문서 영역 탐지 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발',
+            '문서 영역 탐지 모델, 회전 문서 분류 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발',
+            descriptions: [
+              {
+                content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
+                postImage:
+                  'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
+              },
+            ]
         },
         {
-          content: '회전된 문서에 대한 방향 분류 모델 및 정방향 전환 후처리 모듈 개발',
-          descriptions: [
-            {
-              content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
-              postImage:
-                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
-            },
-          ],
-        },
-        {
-          content: '모델 배포를 위한 triton inference server 개발',
+          content: '모델 배포를 위한 kubernetes 기반의 triton inference server 개발',
           descriptions: [
             {
               content: 'TensorRT를 통한 STD 모델의 추론 시간 개선 (87.31% 단축)',
@@ -97,10 +94,6 @@ const project: IProject.Payload = {
             },
           ],
         },
-        {
-          content:
-            'Kubernetes 기반의 triton inference server 및 flask server에 package 적용 및 개선',
-        },
       ],
     },
     {
@@ -112,7 +105,7 @@ const project: IProject.Payload = {
         { content: '화상 환자의 치료 이후 환부 이미지 생성을 위한 데이터 구축 방안 컨설팅' },
         { content: '화상 환자의 환부 Segmentation 및 심각도 진단 모델 개발' },
         {
-          content: '모델 배포를 위한 Triton Inference Server와 API 설계 및 개발',
+          content: '모델 배포를 위한 triton inference server와 API 설계 및 개발',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/278788717-4639cd97-0363-4d66-8f84-a1ade9a80177.png',
         },
