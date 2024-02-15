@@ -11,9 +11,9 @@ const publication: IPublication.Payload = {
       descriptions: [
         {
           content:
-            'Patent: Classification and Redundancy Quantitative Evaluation Algorithm for Highly Efficient Fault Diagnosis of Rotary Machines in Roll-to-Roll systems',
+            '[Patent] Apparatus and method for predicting coating layer thickness in slot-die coating process',
           weight: 'BOLD',
-          href: 'http://kpat.kipris.or.kr/kpat/biblioa.do?method=biblioFrame',
+          href: 'https://patents.google.com/patent/KR20230120780A',
           descriptions: [
             {
               content: 'Application number (date): 1020220017419 (2022.02.10)',
@@ -34,7 +34,7 @@ const publication: IPublication.Payload = {
       descriptions: [
         {
           content:
-            'SCI(E): Classification and Redundancy Quantitative Evaluation Algorithm for Highly Efficient Fault Diagnosis of Rotary Machines in Roll-to-Roll systems',
+            '[SCI(E)] Classification and Redundancy Quantitative Evaluation Algorithm for Highly Efficient Fault Diagnosis of Rotary Machines in Roll-to-Roll systems',
           weight: 'BOLD',
           href: 'https://www.sciencedirect.com/science/article/pii/S0263224122014889?via=ihub',
           descriptions: [
@@ -58,7 +58,7 @@ const publication: IPublication.Payload = {
       descriptions: [
         {
           content:
-            'SCI(E): Feature Selection Algorithm Based on Density and Distance for Fault Diagnosis Applied to a Roll-to-Roll Manufacturing System',
+            '[SCI(E)] Feature Selection Algorithm Based on Density and Distance for Fault Diagnosis Applied to a Roll-to-Roll Manufacturing System',
           weight: 'BOLD',
           href: 'https://academic.oup.com/jcde/article/9/2/805/6573580',
           descriptions: [
