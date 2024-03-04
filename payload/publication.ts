@@ -16,11 +16,15 @@ const publication: IPublication.Payload = {
           href: 'https://patents.google.com/patent/KR20230120780A',
           descriptions: [
             {
-              content: 'Application number (date): 1020220017419 (2022.02.10)',
+              content: 'Inventor: Changwoo Lee, Minho Jo, Yoonjae Lee, Hyogeun Oh',
               weight: 'MEDIUM',
             },
             {
-              content: 'Grant number (date): 1025842600000 (2023.09.25)',
+              content: 'Application number: 1020220017419 (2022.02.10)',
+              weight: 'MEDIUM',
+            },
+            {
+              content: 'Grant number: 1025842600000 (2023.09.25)',
               weight: 'MEDIUM',
             },
           ],
