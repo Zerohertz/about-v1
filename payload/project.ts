@@ -17,7 +17,7 @@ const project: IProject.Payload = {
         {
           content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
         },
-        { content: 'Streamlit을 통한 demo 페이지 개발 및 kuberntes 기반 배포' },
+        { content: 'Streamlit을 통한 demo 페이지 개발 및 Kuberntes 기반 배포' },
       ],
     },
     {
@@ -51,6 +51,30 @@ const project: IProject.Payload = {
       ],
     },
     {
+      title: '전/후처리, 시각화, 모델 backend 구성 및 호출을 위한 사내 Python package 개발',
+      startedAt: '2023-10',
+      where: 'AgileSoDA',
+      descriptions: [
+        {
+          content: 'Docstring 기반 package 내 함수 및 클래스에 대한 문서화 수행',
+        },
+        {
+          content: 'Type hint 및 PyTest를 통한 package의 건전성 유지',
+        },
+        {
+          content: '다양한 서류 이미지의 전처리 및 모델 추론 결과의 시각화 파이프라인 획일화',
+        },
+        {
+          content: 'Cython 기반의 알고리즘 개선을 통한 STD 모델의 후처리 속도 개선 (74.12% 단축)',
+          href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
+          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png'
+        },
+        {
+          content: 'Triton Inference Server를 위한 클래스 획일화 및 상속 구조 개발',
+        },
+      ],
+    },
+    {
       title: 'AI 기반 OCR Solution TwinReader 연구개발',
       startedAt: '2023-02',
       where: 'AgileSoDA',
@@ -62,17 +86,20 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '문서 영역 탐지 모델, 회전 문서 분류 모델, STD (Scene Text Detection) 및 STS (Scene Text Spotting) 모델 개발',
+            '문서 영역 탐지 모델, 회전 문서 분류 모델, STD (Scene Text Detection) 모델, 서명 및 체크 박스 인식 모델 연구개발',
           descriptions: [
             {
               content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
               postImage:
                 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
             },
+            {
+              content: 'PoC 대응을 위한 fine-tuning 수행',
+            },
           ],
         },
         {
-          content: '모델 배포를 위한 kubernetes 기반의 triton inference server 개발',
+          content: '모델 배포를 위한 Kubernetes 기반의 Triton Inference Server 개발',
           descriptions: [
             {
               content: 'TensorRT를 통한 STD 모델의 추론 시간 개선 (87.31% 단축)',
@@ -80,20 +107,13 @@ const project: IProject.Payload = {
               postImage:
                 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
             },
-          ],
-        },
-        {
-          content: '전, 후처리 및 시각화를 위한 python package 개발 및 알고리즘 개선',
-          descriptions: [
             {
-              content:
-                'Cython 기반의 알고리즘 개선을 통한 STD 모델의 후처리 속도 개선 (74.12% 단축)',
-              href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
+              content: 'Triton Inference Server 내 치명적 결함 수정 (GPU Memory 47.9% 감소)',
               postImage:
-                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
-            },
+                'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
+            }
           ],
-        },
+        }
       ],
     },
     {
@@ -103,9 +123,9 @@ const project: IProject.Payload = {
       where: 'AgileSoDA',
       descriptions: [
         { content: '화상 환자의 치료 이후 환부 이미지 생성을 위한 데이터 구축 방안 컨설팅' },
-        { content: '화상 환자의 환부 Segmentation 및 심각도 진단 모델 개발' },
+        { content: '화상 환자의 환부 segmentation 및 심각도 진단 모델 개발' },
         {
-          content: '모델 배포를 위한 triton inference server와 API 설계 및 개발',
+          content: '모델 배포를 위한 Triton Inference Server와 API 설계 및 개발',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/278788717-4639cd97-0363-4d66-8f84-a1ade9a80177.png',
         },
