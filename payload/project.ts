@@ -103,7 +103,7 @@ const project: IProject.Payload = {
           content: '모델 배포를 위한 Kubernetes 기반의 Triton Inference Server 개발',
           descriptions: [
             {
-              content: 'TensorRT를 통한 STD 모델의 추론 시간 개선 (87.31% 단축)',
+              content: 'TensorRT를 통해 STD 모델의 추론 시간 개선 (87.31% 단축)',
               href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
               postImage:
                 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
