@@ -67,7 +67,8 @@ const project: IProject.Payload = {
         {
           content: 'Cython 기반의 알고리즘 개선을 통한 STD 모델의 후처리 속도 개선 (74.12% 단축)',
           href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
-          postImage: 'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png'
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
         },
         {
           content: 'Triton Inference Server를 위한 클래스 획일화 및 상속 구조 개발',
@@ -111,9 +112,9 @@ const project: IProject.Payload = {
               content: 'Triton Inference Server 내 치명적 결함 수정 (GPU Memory 47.9% 감소)',
               postImage:
                 'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
-            }
+            },
           ],
-        }
+        },
       ],
     },
     {
