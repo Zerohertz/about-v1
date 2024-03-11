@@ -4,23 +4,6 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'AI 기반 자동차 파손 및 심도 인식 제품 TwinCar 연구개발',
-      startedAt: '2023-11',
-      where: 'AgileSoDA',
-      descriptions: [
-        {
-          content: 'TwinCar 제품 소개 페이지',
-          href: 'http://www.agilesoda.com/sub/twin_car.php',
-          weight: 'MEDIUM',
-        },
-        { content: 'PoC 수행을 위한 차종 분류 모델 개발' },
-        {
-          content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발',
-        },
-        { content: 'Streamlit을 통한 demo 페이지 개발 및 Kuberntes 기반 배포' },
-      ],
-    },
-    {
       title: 'Python package 개발 및 CI/CD pipeline 구축',
       startedAt: '2023-11',
       where: 'Personal Project',
@@ -65,7 +48,7 @@ const project: IProject.Payload = {
           content: '다양한 서류 이미지의 전처리 및 모델 추론 결과의 시각화 파이프라인 획일화',
         },
         {
-          content: 'Cython 기반의 알고리즘 개선을 통한 STD 모델의 후처리 속도 개선 (74.12% 단축)',
+          content: 'Cython 기반의 알고리즘 개선을 통한 STD (Scene Text Detection) 모델의 후처리 속도 개선 (74.12% 단축)',
           href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
@@ -87,34 +70,45 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '문서 영역 탐지 모델, 회전 문서 분류 모델, STD (Scene Text Detection) 모델, 서명 및 체크 박스 인식 모델 연구개발',
-          descriptions: [
-            {
-              content: '모델 구조 개선을 통한 회전된 문서 오분류 해결 (정확도 2.01%p 상승)',
-              postImage:
-                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
-            },
-            {
-              content: 'PoC 대응을 위한 fine-tuning 수행',
-            },
-          ],
+            '문서 영역 탐지 모델, 회전 문서 분류 모델, STD 모델, 서명 및 체크 박스 인식 모델 연구개발',
         },
         {
-          content: '모델 배포를 위한 Kubernetes 기반의 Triton Inference Server 개발',
-          descriptions: [
-            {
-              content: 'TensorRT를 통해 STD 모델의 추론 시간 개선 (87.31% 단축)',
-              href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
-              postImage:
-                'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
-            },
-            {
-              content: 'Triton Inference Server 내 치명적 결함 수정 (GPU Memory 47.9% 감소)',
-              postImage:
-                'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
-            },
-          ],
+          content: '모델 구조 개선을 통한 회전된 문서의 오분류 문제 해결 (정확도 2.01%p 향상)',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
         },
+        {
+          content: '모델 배포를 위한 Kubernetes 기반 Triton Inference Server 개발',
+        },
+        {
+          content: 'TensorRT를 통한 STD 모델의 추론 시간 개선 (87.31% 단축)',
+          href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
+        },
+        {
+          content: 'Triton Inference Server 내 치명적 결함 수정 (GPU Memory 47.9% 감소)',
+          postImage:
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
+        },
+      ],
+    },
+    {
+      title: 'AI 기반 자동차 파손 및 심도 인식 제품 TwinCar 연구개발',
+      startedAt: '2023-11',
+      endedAt: '2024-02',
+      where: 'AgileSoDA',
+      descriptions: [
+        {
+          content: 'TwinCar 제품 소개 페이지',
+          href: 'http://www.agilesoda.com/sub/twin_car.php',
+          weight: 'MEDIUM',
+        },
+        { content: 'PoC 수행을 위한 차종 분류 모델 개발' },
+        {
+          content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발 및 모델 추론 파이프라인 개발',
+        },
+        { content: 'Streamlit을 통한 demo 페이지 개발 및 Kubernetes 기반 배포' },
       ],
     },
     {
@@ -123,7 +117,6 @@ const project: IProject.Payload = {
       endedAt: '2023-11',
       where: 'AgileSoDA',
       descriptions: [
-        { content: '화상 환자의 치료 이후 환부 이미지 생성을 위한 데이터 구축 방안 컨설팅' },
         { content: '화상 환자의 환부 segmentation 및 심각도 진단 모델 개발' },
         {
           content: '모델 배포를 위한 Triton Inference Server와 API 설계 및 개발',

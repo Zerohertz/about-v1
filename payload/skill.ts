@@ -96,19 +96,19 @@ const monitoring: ISkill.Skill = {
   ],
 };
 
-const ingress: ISkill.Skill = {
-  category: 'Ingress',
-  items: [
-    {
-      title: 'Traefik',
-      level: 1,
-    },
-    {
-      title: 'Nginx',
-      level: 1,
-    },
-  ],
-};
+// const ingress: ISkill.Skill = {
+//   category: 'Ingress',
+//   items: [
+//     {
+//       title: 'Traefik',
+//       level: 1,
+//     },
+//     {
+//       title: 'Nginx',
+//       level: 1,
+//     },
+//   ],
+// };
 
 const dataEngineering: ISkill.Skill = {
   category: 'Data Engineering',
@@ -174,7 +174,7 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programming, mlops, ciCd, monitoring, ingress, dataEngineering, cloud, database, etc],
+  skills: [programming, mlops, ciCd, monitoring, dataEngineering, cloud, database, etc], // ingress
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
