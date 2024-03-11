@@ -48,7 +48,8 @@ const project: IProject.Payload = {
           content: '다양한 서류 이미지의 전처리 및 모델 추론 결과의 시각화 파이프라인 획일화',
         },
         {
-          content: 'Cython 기반의 알고리즘 개선을 통한 STD (Scene Text Detection) 모델의 후처리 속도 개선 (74.12% 단축)',
+          content:
+            'Cython 기반의 알고리즘 개선을 통한 STD (Scene Text Detection) 모델의 후처리 속도 개선 (74.12% 단축)',
           href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
@@ -106,7 +107,8 @@ const project: IProject.Payload = {
         },
         { content: 'PoC 수행을 위한 차종 분류 모델 개발' },
         {
-          content: '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발 및 모델 추론 파이프라인 개발',
+          content:
+            '필터모델, 부품인식모델, 수리유형모델, 손상유형모델 연구개발 및 모델 추론 파이프라인 개발',
         },
         { content: 'Streamlit을 통한 demo 페이지 개발 및 Kubernetes 기반 배포' },
       ],
