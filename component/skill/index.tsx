@@ -25,7 +25,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
       <EmptyRowCol>
         <Row className="pb-3">
           <Col>
-            <h2>
+            <h2 style={{ display: 'flex', gap: '8px', alignItems: 'flex-end' }}>
               <span style={Style.blue}>SKILL</span>
               {createTooltip(payload.tooltip)}
             </h2>
@@ -49,8 +49,11 @@ function createTooltip(content?: string) {
 
   return (
     <small>
-      {' '}
-      <FontAwesomeIcon icon={faQuestionCircle} id="skill-tooltip" />
+      <FontAwesomeIcon
+        icon={faQuestionCircle}
+        id="skill-tooltip"
+        style={{ width: '20px', height: '20px' }}
+      />
       <Tooltip
         style={{ whiteSpace: 'pre-wrap' }}
         placement="right"

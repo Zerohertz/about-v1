@@ -1,13 +1,11 @@
 import { faBolt, faEnvelope, faSeedling } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
   disable: false,
-
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image,
+  image: '/profile.jpg',
   name: {
     title: 'Hyogeun Oh',
     small: '(오효근)',

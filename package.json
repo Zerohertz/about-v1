@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2024-03-11",
+  "lastestUpdatedAt": "2024-03-20",
   "version": "1.2.1",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -49,7 +49,7 @@
     "debug": "^4.3.2",
     "jquery": "^3.6.0",
     "luxon": "^1.28.0",
-    "next": "^10.2.3",
+    "next": "~12.2",
     "next-images": "^1.8.1",
     "next-seo": "^4.26.0",
     "react": "^17.0.2",
