@@ -10,7 +10,7 @@ export default function ProfileContact({
   return (
     <Row className="pb-2">
       <Col xs={1} className="text-right">
-        <FontAwesomeIcon icon={payload.icon} />
+        <FontAwesomeIcon icon={payload.icon} style={{ width: '16px', height: '16px' }} />
       </Col>
       <Col xs="auto">{createLink(payload)}</Col>
     </Row>

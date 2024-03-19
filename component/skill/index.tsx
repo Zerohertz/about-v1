@@ -52,7 +52,7 @@ function createTooltip(content?: string) {
       <FontAwesomeIcon
         icon={faQuestionCircle}
         id="skill-tooltip"
-        style={{ width: '24px', height: '24px' }}
+        style={{ width: '20px', height: '20px' }}
       />
       <Tooltip
         style={{ whiteSpace: 'pre-wrap' }}
