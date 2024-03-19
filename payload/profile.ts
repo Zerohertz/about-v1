@@ -5,7 +5,7 @@ import { IProfile } from '../component/profile/IProfile';
 const profile: IProfile.Payload = {
   disable: false,
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
-  image: '/profile.jpg',
+  image: 'profile.jpg',
   name: {
     title: 'Hyogeun Oh',
     small: '(오효근)',

@@ -4,7 +4,7 @@ const title = 'About Hyogeun Oh (오효근)';
 const description = 'About Hyogeun Oh';
 
 export const _global: IGlobal.Payload = {
-  favicon: '/favicon.ico',
+  favicon: 'favicon.ico',
   headTitle: title,
   seo: {
     title,
