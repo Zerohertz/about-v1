@@ -4,6 +4,25 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '무역 서류 정보 추출 모델 개발',
+      startedAt: '2024-02',
+      where: 'AgileSoDA',
+      descriptions: [
+        {
+          content: '비정형 서류 데이터의 분류를 위한 AI OCR 기반 문서 분류 파이프라인 개발',
+        },
+        {
+          content: 'Pre-labeling을 통한 학습 데이터 annotation 가속화',
+        },
+        {
+          content: '도전적 요구사항이 포함된 annotation의 검수를 위한 Streamlit 기반 GUI 개발',
+        },
+        {
+          content: '고객사 요건 및 무역 서류의 종류에 따른 정보 추출 모델 개발',
+        },
+      ],
+    },
+    {
       title: 'Python package 개발 및 CI/CD pipeline 구축',
       startedAt: '2023-11',
       where: 'Personal Project',
