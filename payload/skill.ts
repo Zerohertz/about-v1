@@ -38,6 +38,10 @@ const mlops: ISkill.Skill = {
   category: 'MLOps',
   items: [
     {
+      title: 'Triton Inference Server',
+      level: 2,
+    },
+    {
       title: 'TensorRT',
       level: 2,
     },
@@ -46,7 +50,7 @@ const mlops: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Triton Inference Server',
+      title: 'Amazon EC2 Inf1',
       level: 2,
     },
     {
@@ -57,11 +61,15 @@ const mlops: ISkill.Skill = {
       title: 'MLflow',
       level: 1,
     },
+    {
+      title: 'DVC',
+      level: 1,
+    },
   ],
 };
 
-const ciCd: ISkill.Skill = {
-  category: 'CI/CD',
+const devOps: ISkill.Skill = {
+  category: 'DevOps',
   items: [
     {
       title: 'Docker',
@@ -79,12 +87,6 @@ const ciCd: ISkill.Skill = {
       title: 'GitHub Actions',
       level: 1,
     },
-  ],
-};
-
-const monitoring: ISkill.Skill = {
-  category: 'Monitoring',
-  items: [
     {
       title: 'Grafana',
       level: 1,
@@ -120,16 +122,6 @@ const dataEngineering: ISkill.Skill = {
     {
       title: 'Apache Kafka',
       level: 1,
-    },
-  ],
-};
-
-const cloud: ISkill.Skill = {
-  category: 'Cloud',
-  items: [
-    {
-      title: 'Amazon EC2 Inf1',
-      level: 2,
     },
   ],
 };
@@ -174,7 +166,7 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programming, mlops, ciCd, monitoring, dataEngineering, cloud, database, etc], // ingress
+  skills: [programming, mlops, devOps, dataEngineering, database, etc], // ingress
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
