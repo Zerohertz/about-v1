@@ -5,8 +5,11 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    '현재 AgileSoDA에서 전문연구요원으로 재직 중 이며 Computer Vision 분야의 다양한 인공지능 모델 (OCR, Segmentation)을 연구개발 및 서빙하고 있습니다.',
-    'Data Engineering, DevOps, MLOps에 큰 관심이 있어 다양한 스택 (k8s, Airflow 등)을 공부 중에 있습니다.',
+    '안녕하세요, 2년차 Machine Learning Engineer 오효근 입니다.',
+    '다룰 수 있는 기술은 Python, Docker, Kubernetes, Jenkins 등이 있습니다.',
+
+    'AI 기반의 제품을 개발하기위해 MLOps를 통해 자동화하고 협업이 가능한 환경을 구축하는 것을 선호합니다.',
+    '명료하지만 엄격한 코드를 개발하고 공유하며 협업하는 것에 행복을 느낍니다.',
   ],
   sign: 'Zerohertz',
   // sign: packageJson.author.name,
