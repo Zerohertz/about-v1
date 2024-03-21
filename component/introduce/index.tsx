@@ -34,7 +34,9 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         </Col>
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
+            <p key={index.toString()} style={{ lineHeight: '1' }}>
+              {content}
+            </p>
           ))}
           <p className="text-right">
             <small>Latest Updated</small>{' '}
