@@ -12,7 +12,7 @@ const project: IProject.Payload = {
           content: '비정형 서류 데이터의 분류를 위한 AI OCR 기반 문서 분류 파이프라인 개발',
         },
         {
-          content: 'Pre-labeling을 통한 학습 데이터 annotation 가속화',
+          content: 'Label Studio SDK와 pre-labeling을 통한 학습 데이터 annotation 가속화',
         },
         {
           content: '도전적 요구사항이 포함된 annotation의 검수를 위한 Streamlit 기반 GUI 개발',
