@@ -68,8 +68,8 @@ const mlops: ISkill.Skill = {
   ],
 };
 
-const devOps: ISkill.Skill = {
-  category: 'DevOps',
+const infra: ISkill.Skill = {
+  category: 'Infra',
   items: [
     {
       title: 'Docker',
@@ -95,22 +95,12 @@ const devOps: ISkill.Skill = {
       title: 'Prometheus',
       level: 1,
     },
+    {
+      title: 'Traefik',
+      level: 1,
+    },
   ],
 };
-
-// const ingress: ISkill.Skill = {
-//   category: 'Ingress',
-//   items: [
-//     {
-//       title: 'Traefik',
-//       level: 1,
-//     },
-//     {
-//       title: 'Nginx',
-//       level: 1,
-//     },
-//   ],
-// };
 
 const dataEngineering: ISkill.Skill = {
   category: 'Data Engineering',
@@ -166,7 +156,7 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [programming, mlops, devOps, dataEngineering, database, etc], // ingress
+  skills: [programming, mlops, infra, dataEngineering, database, etc], // ingress
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
