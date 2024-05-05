@@ -34,7 +34,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         </Col>
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
-            <p key={index.toString()} style={{ lineHeight: '1' }}>
+            <p key={index.toString()} style={{ lineHeight: '1.5' }}>
               {content}
             </p>
           ))}
