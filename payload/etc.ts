@@ -5,6 +5,12 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'CKA',
+      subTitle: 'Certified Kubernetes Administrator',
+      startedAt: '2024-05',
+      endedAt: '2026-05',
+    },
+    {
       title: '전문연구요원',
       subTitle: 'AgileSoDA',
       startedAt: '2023-02',
