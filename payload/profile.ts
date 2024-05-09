@@ -1,10 +1,9 @@
-import { faBolt, faEnvelope, faSeedling } from '@fortawesome/free-solid-svg-icons';
+import { faBolt, faEnvelope, faSeedling, faScroll } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
   disable: false,
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image: 'profile.jpg',
   name: {
     title: 'Hyogeun Oh',
@@ -16,11 +15,6 @@ const profile: IProfile.Payload = {
       link: 'mailto:ohg3417@gmail.com',
       icon: faEnvelope,
     },
-    // {
-    //   title: 'Curriculum Vitae',
-    //   link: '',
-    //   icon: faScroll,
-    // },
     {
       title: 'GitHub',
       link: 'https://github.com/Zerohertz',
@@ -30,6 +24,11 @@ const profile: IProfile.Payload = {
       title: 'Tech Blog',
       link: 'https://zerohertz.github.io/',
       icon: faBolt,
+    },
+    {
+      title: 'Resume',
+      link: 'https://cloud.zerohertz.xyz/s/qFinM8R9kYbx7Jz',
+      icon: faScroll,
     },
     {
       title: 'LinkedIn',
@@ -42,10 +41,10 @@ const profile: IProfile.Payload = {
       icon: faGoogle,
     },
   ],
-  // notice: {
-  //   title: 'Greedy하게 발전하는 Machine Learning Engineer.',
-  //   icon: faSeedling,
-  // },
+  notice: {
+    title: 'Greedy하게 발전하는 Machine Learning Engineer.',
+    icon: faSeedling,
+  },
 };
 
 export default profile;
