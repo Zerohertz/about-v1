@@ -13,15 +13,9 @@ const experience: IExperience.Payload = {
         'Developed and deployed various models for text, signature, and checkbox detection, as well as information extraction, for the AI optical character recognition (OCR) product TwinReader.',
         'Developed Python backend for model serving and optimized pipelines for increased efficiency.',
         'Maintained and managed Kubernetes-based clusters.',
-        'Executed AI projects and proof of concept (PoC) to meet client specifications.'
+        'Executed AI projects and proof of concept (PoC) to meet client specifications.',
       ],
-      skillKeywords: [
-        'Python',
-        'Docker',
-        'Kubernetes',
-        'Research',
-        'Machine Learning',
-      ],
+      skillKeywords: ['Python', 'Docker', 'Kubernetes', 'Research', 'Machine Learning'],
     },
     {
       title: 'SiM Lab. (Smart intelligent Manufacturing system Laboratory)',
@@ -42,9 +36,7 @@ const experience: IExperience.Payload = {
       position: 'Research Intern',
       startedAt: '2019-11',
       endedAt: '2021-02',
-      descriptions: [
-        'Developed bearing condition diagnostic model and graphic user interface.'
-      ],
+      descriptions: ['Developed bearing condition diagnostic model and graphic user interface.'],
       skillKeywords: ['MATLAB', 'Research', 'Machine Learning'],
     },
     {

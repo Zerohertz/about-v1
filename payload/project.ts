@@ -9,16 +9,19 @@ const project: IProject.Payload = {
       where: 'AgileSoDA',
       descriptions: [
         {
-          content: 'Developed an AI OCR-based document classification pipeline for categorizing unstructured document data.',
+          content:
+            'Developed an AI OCR-based document classification pipeline for categorizing unstructured document data.',
         },
         {
           content: 'Accelerated data annotation through Label Studio SDK and pre-labeling.',
         },
         {
-          content: 'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements',
+          content:
+            'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements',
         },
         {
-          content: 'Developed models tailored to the specific needs of clients and types of trade documents.',
+          content:
+            'Developed models tailored to the specific needs of clients and types of trade documents.',
         },
       ],
     },
@@ -58,13 +61,15 @@ const project: IProject.Payload = {
       where: 'AgileSoDA',
       descriptions: [
         {
-          content: 'Performed documentation of functions and classes within the package based on Docstring.',
+          content:
+            'Performed documentation of functions and classes within the package based on Docstring.',
         },
         {
           content: 'Maintained the integrity of the package through type hints and PyTest.',
         },
         {
-          content: 'Standardized the preprocessing of various document images and visualization of model inference results.',
+          content:
+            'Standardized the preprocessing of various document images and visualization of model inference results.',
         },
         {
           content:
@@ -74,7 +79,8 @@ const project: IProject.Payload = {
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
         },
         {
-          content: 'Developed a unified class and inheritance structure for Triton Inference Server.',
+          content:
+            'Developed a unified class and inheritance structure for Triton Inference Server.',
         },
       ],
     },
@@ -88,7 +94,8 @@ const project: IProject.Payload = {
             'Developed models for document area detection, rotated document classification, and detection of text, signatures, checkboxes.',
         },
         {
-          content: 'Solved misclassification issues of rotated documents through model structural improvements. (accuracy improved by 2.01%)',
+          content:
+            'Solved misclassification issues of rotated documents through model structural improvements. (accuracy improved by 2.01%)',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
         },
@@ -96,16 +103,19 @@ const project: IProject.Payload = {
           content: 'Developed a Kubernetes-based Triton Inference Server for model deployment.',
         },
         {
-          content: 'Enhanced inference time of the text detection model using TensorRT. (inference time decrease by 87.31%)',
+          content:
+            'Enhanced inference time of the text detection model using TensorRT. (inference time decrease by 87.31%)',
           href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
         },
         {
-          content: 'Fixed critical flaws in the Triton Inference Server. (GPU Memory reduced by 47.9%)',
+          content:
+            'Fixed critical flaws in the Triton Inference Server. (GPU Memory reduced by 47.9%)',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
-        }, ],
+        },
+      ],
     },
     {
       title: 'AI-based Automotive Damage and Depth Recognition Product, TwinCar',
@@ -127,9 +137,13 @@ const project: IProject.Payload = {
       endedAt: '2023-11',
       where: 'AgileSoDA',
       descriptions: [
-        { content: 'Developed models for segmentation of burn areas and severity diagnosis in burn patients.' },
         {
-          content: 'Designed and developed an API for model deployment using Triton Inference Server.',
+          content:
+            'Developed models for segmentation of burn areas and severity diagnosis in burn patients.',
+        },
+        {
+          content:
+            'Designed and developed an API for model deployment using Triton Inference Server.',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/278788717-4639cd97-0363-4d66-8f84-a1ade9a80177.png',
         },

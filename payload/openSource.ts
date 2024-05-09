@@ -29,7 +29,8 @@ const openSource: IOpenSource.Payload = {
           href: 'https://github.com/bytedance/SPTSv2/pull/1',
         },
         {
-          content: 'Solving tensor dimension erros and generalizing prediction, evaluation, and visualization',
+          content:
+            'Solving tensor dimension erros and generalizing prediction, evaluation, and visualization',
           weight: 'REGULAR',
           href: 'https://github.com/bytedance/SPTSv2/pull/3',
           postImage: 'https://img.shields.io/github/stars/bytedance/SPTSv2.svg?style=popout',
