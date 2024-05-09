@@ -5,8 +5,8 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: 'CKA',
-      subTitle: 'Certified Kubernetes Administrator',
+      title: 'CKA (Certified Kubernetes Administrator)',
+      subTitle: 'The Linux Foundation',
       startedAt: '2024-05',
       endedAt: '2026-05',
     },
@@ -17,13 +17,13 @@ const etc: IEtc.Payload = {
       endedAt: '2026-02',
     },
     {
-      title: 'BOAZ 19기 수료 (분석 부문)',
-      subTitle: '국내 최초 빅데이터 동아리',
+      title: 'BOAZ 19th (Big Data Club)',
+      subTitle: 'Data Analysis',
       startedAt: '2022-07',
       endedAt: '2023-07',
       descriptions: [
         {
-          content: 'Study 및 Project (GitHub)',
+          content: 'Study & Project (GitHub)',
           href: 'https://github.com/stars/Zerohertz/lists/99-boaz',
         },
       ],

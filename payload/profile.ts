@@ -42,10 +42,10 @@ const profile: IProfile.Payload = {
       icon: faGoogle,
     },
   ],
-  notice: {
-    title: 'Greedy하게 발전하는 Machine Learning Engineer.',
-    icon: faSeedling,
-  },
+  // notice: {
+  //   title: 'Greedy하게 발전하는 Machine Learning Engineer.',
+  //   icon: faSeedling,
+  // },
 };
 
 export default profile;

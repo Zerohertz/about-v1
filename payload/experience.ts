@@ -10,9 +10,10 @@ const experience: IExperience.Payload = {
       position: 'Machine Learning Research Engineer',
       startedAt: '2023-02',
       descriptions: [
-        'AI 기반 OCR Solution TwinReader 연구개발',
-        '화상 환자 진료보조 AI 서비스 개발',
-        'AI 기반 자동차 파손 및 심도 인식 제품 TwinCar 연구개발',
+        'Developed and deployed various models for text, signature, and checkbox detection, as well as information extraction, for the AI optical character recognition (OCR) product TwinReader.',
+        'Developed Python backend for model serving and optimized pipelines for increased efficiency.',
+        'Maintained and managed Kubernetes-based clusters.',
+        'Executed AI projects and proof of concept (PoC) to meet client specifications.'
       ],
       skillKeywords: [
         'Python',
@@ -20,7 +21,6 @@ const experience: IExperience.Payload = {
         'Kubernetes',
         'Research',
         'Machine Learning',
-        'Deep Learning',
       ],
     },
     {
@@ -30,12 +30,11 @@ const experience: IExperience.Payload = {
       startedAt: '2021-03',
       endedAt: '2023-02',
       descriptions: [
-        'Advisor: Changwoo Lee',
-        '다양한 공정에 대한 상태 진단 모델 연구개발',
-        '실시간 모니터링을 위한 Graphic User Interface 개발',
-        'Roll-to-Roll 연속 공정의 장력 및 온도에 따른 전산 유체 역학 (CFD) 시뮬레이션 수행',
+        'Conducted research and development on diagnostic models for monitoring various process conditions.',
+        'Developed a graphical user interface (GUI) for real-time monitoring.',
+        'Performed computational fluid dynamics (CFD) simulations based on tension and temperature in roll-to-roll continuous processes.',
       ],
-      skillKeywords: ['Python', 'MATLAB', 'Ansys', 'Research', 'Machine Learning', 'Deep Learning'],
+      skillKeywords: ['Python', 'MATLAB', 'Ansys', 'Research', 'Machine Learning'],
     },
     {
       title: 'SiM Lab. (Smart intelligent Manufacturing system Laboratory)',
@@ -44,10 +43,9 @@ const experience: IExperience.Payload = {
       startedAt: '2019-11',
       endedAt: '2021-02',
       descriptions: [
-        'Advisor: Changwoo Lee',
-        'Bearing 상태 진단 모델 및 Graphic User Interface 개발',
+        'Developed bearing condition diagnostic model and graphic user interface.'
       ],
-      skillKeywords: ['MATLAB', 'Research', 'Machine Learning', 'Deep Learning'],
+      skillKeywords: ['MATLAB', 'Research', 'Machine Learning'],
     },
     {
       title: 'MRV Lab. (Medical Robotics and Virtual Reality Laboratory)',
@@ -55,7 +53,7 @@ const experience: IExperience.Payload = {
       position: 'Research Intern',
       startedAt: '2018-06',
       endedAt: '2019-11',
-      descriptions: ['Advisor: Hoeryong Jung', 'Unreal Engine 기반 가상 현실 환경 구축'],
+      descriptions: ['Developed virtual reality environments based on Unreal Engine.'],
       skillKeywords: ['Unreal Engine', 'C++', 'Research'],
     },
   ],
