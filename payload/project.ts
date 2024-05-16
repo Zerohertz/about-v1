@@ -26,7 +26,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Development and CI/CD Pipeline Construction of Python Package',
+      title: 'Development and CI/CD Pipeline Construction of Python Library',
       startedAt: '2023-11',
       where: 'Personal Project',
       descriptions: [
@@ -48,7 +48,7 @@ const project: IProject.Payload = {
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284295191-de5f331b-5825-4dfb-a49c-2565835c93f0.png',
         },
         {
-          content: 'Distributed the package via PyPI.',
+          content: 'Distributed the library via PyPI.',
           href: 'https://pypi.org/project/zerohertzLib/',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284295266-1f4a2b20-1046-4188-b2a8-3152756a3f08.png',
@@ -56,16 +56,16 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Python Package for Pre/Post-Processing, Visualization, and Model Backend',
+      title: 'Python Library for Pre/Post-Processing, Visualization, and Model Backend',
       startedAt: '2023-10',
       where: 'AgileSoDA',
       descriptions: [
         {
           content:
-            'Performed documentation of functions and classes within the package based on Docstring.',
+            'Performed documentation of functions and classes within the library based on Docstring.',
         },
         {
-          content: 'Maintained the integrity of the package through type hints and PyTest.',
+          content: 'Maintained the integrity of the library through type hints and PyTest.',
         },
         {
           content:
