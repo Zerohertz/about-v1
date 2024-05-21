@@ -22,7 +22,7 @@ export const Education = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="EDUCATION">
+    <CommonSection title="EDUCATIONS">
       <EducationRow payload={payload} />
     </CommonSection>
   );
