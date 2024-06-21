@@ -4,28 +4,6 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Trade Document Information Extraction Model',
-      startedAt: '2024-02',
-      where: 'AgileSoDA',
-      descriptions: [
-        {
-          content:
-            'Developed an AI OCR-based document classification pipeline for categorizing unstructured document data.',
-        },
-        {
-          content: 'Accelerated data annotation through Label Studio SDK and pre-labeling.',
-        },
-        {
-          content:
-            'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements',
-        },
-        {
-          content:
-            'Developed models tailored to the specific needs of clients and types of trade documents.',
-        },
-      ],
-    },
-    {
       title: 'Development and CI/CD Pipeline Construction of Python Library',
       startedAt: '2023-11',
       where: 'Personal Project',
@@ -37,7 +15,7 @@ const project: IProject.Payload = {
         },
         {
           content: 'Established a Jenkins-based CI/CD pipeline.',
-          href: 'https://jenkins.zerohertz.xyz/blue/organizations/jenkins/zerohertzLib/activity',
+          href: 'https://github.com/Zerohertz/zerohertzLib/blob/v1.1.3/Jenkinsfile',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284292801-35b6affc-eb9d-43c9-abf9-4c82b2963d39.png',
         },
@@ -45,13 +23,19 @@ const project: IProject.Payload = {
           content: 'Implemented documentation through Sphinx.',
           href: 'https://zerohertz.github.io/zerohertzLib/',
           postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284295191-de5f331b-5825-4dfb-a49c-2565835c93f0.png',
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/a7adb2d3-defd-4cf6-956a-af46a0b31b29',
         },
         {
-          content: 'Distributed the library via PyPI.',
+          content: 'Distributed the library via GitHub & PyPI.',
           href: 'https://pypi.org/project/zerohertzLib/',
           postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284295266-1f4a2b20-1046-4188-b2a8-3152756a3f08.png',
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/b2c20fd1-8cce-4117-84a4-76035336ef4f',
+        },
+        {
+          content: 'Migrated CI/CD pipeline from Jenkins to GitHub Actions.',
+          href: 'https://github.com/Zerohertz/zerohertzLib/actions',
+          postImage:
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/e310ad4e-aaed-4808-9067-fff71ea40fbf',
         },
       ],
     },
@@ -90,17 +74,19 @@ const project: IProject.Payload = {
       where: 'AgileSoDA',
       descriptions: [
         {
-          content:
-            'Developed models for document area detection, rotated document classification, and detection of text, signatures, checkboxes.',
-        },
-        {
-          content:
-            'Solved misclassification issues of rotated documents through model structural improvements. (accuracy improved by 2.01%)',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
-        },
-        {
           content: 'Developed a Kubernetes-based Triton Inference Server for model deployment.',
+        },
+        {
+          content:
+            'Resolved source and version control challenges during Triton Inference Server deployment by improving the architecture using GitLab CI and Kubernetes.',
+          postImage:
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/6a906566-f23f-4eea-8781-f0473d12c413',
+        },
+        {
+          content:
+            'Fixed critical flaws in the Triton Inference Server. (GPU Memory reduced by 47.9%)',
+          postImage:
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
         },
         {
           content:
@@ -111,9 +97,36 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Fixed critical flaws in the Triton Inference Server. (GPU Memory reduced by 47.9%)',
+            'Solved misclassification issues of rotated documents through model structural improvements. (accuracy improved by 2.01%)',
           postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
+        },
+        {
+          content:
+            'Developed models for document area detection, rotated document classification, and detection of text, signatures, checkboxes.',
+        },
+      ],
+    },
+    {
+      title: 'Trade Document Information Extraction Model',
+      startedAt: '2024-02',
+      endedAt: '2024-05',
+      where: 'AgileSoDA',
+      descriptions: [
+        {
+          content:
+            'Developed an AI OCR-based document classification pipeline for categorizing unstructured document data.',
+        },
+        {
+          content: 'Accelerated data annotation through Label Studio SDK and pre-labeling.',
+        },
+        {
+          content:
+            'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements',
+        },
+        {
+          content:
+            'Developed models tailored to the specific needs of clients and types of trade documents.',
         },
       ],
     },
