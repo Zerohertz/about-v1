@@ -108,7 +108,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Trade Document Information Extraction Model',
+      title: 'Information Extraction Model Development for Trade Document Processing',
       startedAt: '2024-02',
       endedAt: '2024-05',
       where: 'AgileSoDA',
@@ -122,7 +122,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements',
+            'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements.',
         },
         {
           content:
