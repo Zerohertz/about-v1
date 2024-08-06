@@ -27,7 +27,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Resume',
-      link: 'https://cloud.zerohertz.xyz/s/qFinM8R9kYbx7Jz',
+      link: 'https://cloud.zerohertz.xyz/s/kHm6ckdnj9SH2pW',
       icon: faScroll,
     },
     {
