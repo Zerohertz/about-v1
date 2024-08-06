@@ -1,4 +1,4 @@
-import { Row, Col, Badge } from 'reactstrap';
+import { Badge } from 'reactstrap';
 import { PropsWithChildren } from 'react';
 import { DateTime } from 'luxon';
 import { Style } from '../common/Style';
