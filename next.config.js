@@ -10,17 +10,18 @@ module.exports = withImages({
       try {
         console.log('> Detected homepage url in package.json');
         const { pathname } = new URL(homepage);
-        if (pathname !== '/') {
-          console.log(`> Apply \'${pathname}\' to assetPrefix(subPath)`);
+        if (pathname && pathname !== '/') {
+          console.log(`> Apply '${pathname}' to assetPrefix(subPath)`);
           return pathname;
         }
-        return '';
-      } catch {
-        console.log('> Can not parse homepage URL not apply assetPrefix(subPath)');
-        return '';
+        return '/';
+      } catch (error) {
+        console.log('> Can not parse homepage URL, not applying assetPrefix(subPath)');
+        console.error(error);
+        return '/';
       }
     }
-    return '';
+    return '/';
   })(),
 });
 // withCSS({
