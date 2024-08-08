@@ -1,7 +1,8 @@
-import { PropsWithChildren, CSSProperties } from 'react';
+/* eslint-disable react/no-array-index-key */
+
+import React, { PropsWithChildren, CSSProperties } from 'react';
 import { IRow } from './IRow';
 import { HrefTargetBlank } from '.';
-import React from 'react';
 
 /** Description Recusion Generator */
 export function CommonDescription({
