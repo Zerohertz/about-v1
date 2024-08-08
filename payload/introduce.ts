@@ -1,5 +1,6 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
-import { lastestUpdatedAt } from '../package.json';
+
+const { lastestUpdatedAt } = require('../package.json');
 
 const introduce: IIntroduce.Payload = {
   disable: false,
