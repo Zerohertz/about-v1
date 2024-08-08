@@ -1,7 +1,5 @@
 import { IIntroduce } from '../component/introduce/IIntroduce';
 
-const { lastestUpdatedAt } = require('../package.json');
-
 const introduce: IIntroduce.Payload = {
   disable: false,
 
@@ -16,7 +14,7 @@ const introduce: IIntroduce.Payload = {
     'I have integrated project source codes using Git Submodules to facilitate a smooth collaborative environment. Additionally, I have incorporated MLOps tools such as DVC and MLflow into team workflows, significantly improving our collaborative efforts on data and models, and fostering a productive team environment.',
   ],
   sign: 'Zerohertz',
-  latestUpdated: lastestUpdatedAt,
+  latestUpdated: '2024-**-**',
 };
 
 export default introduce;

@@ -12,7 +12,7 @@
     "start": "next start",
     "export:with-typedoc": "npm run export && npm run typedoc",
     "export": "cross-env NODE_ENV=production next export --outdir docs/",
-    "preexport": "npm run clean && npm run build",
+    "preexport": "sed -i \"s/latestUpdated: '.*'/latestUpdated: '$(date +%Y-%m-%d)'/\" payload/introduce.ts && npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
