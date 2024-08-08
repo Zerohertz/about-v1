@@ -4,7 +4,7 @@ import 'jquery/dist/jquery.slim';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { NextComponentType } from 'next';
-import './styles/font.css';
+import '../public/font.css';
 
 export default function YosumeApp({
   Component,
