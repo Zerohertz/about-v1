@@ -32,7 +32,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/hyogeun-oh-67470b242/',
+      link: 'https://www.linkedin.com/in/hyogeunoh/',
       icon: faLinkedin,
     },
     {
