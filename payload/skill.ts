@@ -12,6 +12,10 @@ const programming: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Java',
+      level: 2,
+    },
+    {
       title: 'C, C++',
       level: 2,
     },
@@ -27,10 +31,6 @@ const programming: ISkill.Skill = {
       title: 'Go',
       level: 1,
     },
-    {
-      title: 'Java',
-      level: 1,
-    },
   ],
 };
 
@@ -39,7 +39,7 @@ const mlops: ISkill.Skill = {
   items: [
     {
       title: 'Triton Inference Server',
-      level: 2,
+      level: 3,
     },
     {
       title: 'TensorRT',
@@ -54,15 +54,15 @@ const mlops: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'DVC',
+      level: 2,
+    },
+    {
       title: 'Kubeflow',
       level: 1,
     },
     {
       title: 'MLflow',
-      level: 1,
-    },
-    {
-      title: 'DVC',
       level: 1,
     },
   ],
@@ -77,14 +77,18 @@ const infra: ISkill.Skill = {
     },
     {
       title: 'Kubernetes',
+      level: 3,
+    },
+    {
+      title: 'GitHub Actions',
+      level: 2,
+    },
+    {
+      title: 'MinIO',
       level: 2,
     },
     {
       title: 'Argo CD',
-      level: 1,
-    },
-    {
-      title: 'GitHub Actions',
       level: 1,
     },
     {
@@ -120,11 +124,11 @@ const database: ISkill.Skill = {
   category: 'Database',
   items: [
     {
-      title: 'MySQL',
-      level: 1,
+      title: 'PostgreSQL',
+      level: 2,
     },
     {
-      title: 'PostgreSQL',
+      title: 'MySQL',
       level: 1,
     },
   ],
@@ -157,7 +161,7 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [programming, mlops, infra, dataEngineering, database, etc], // ingress
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '1: Beginner\n2: Intermediate\n3: Professional',
 };
 
 export default skill;
