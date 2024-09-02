@@ -55,7 +55,7 @@ function createTooltip(content?: string) {
         style={{ width: '20px', height: '20px' }}
       />
       <Tooltip
-        style={{ whiteSpace: 'pre-wrap' }}
+        style={{ whiteSpace: 'pre-wrap', fontFamily: 'Noto Serif KR' }}
         placement="right"
         target="skill-tooltip"
         isOpen={tooltipOpen}
