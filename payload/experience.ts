@@ -10,7 +10,7 @@ const experience: IExperience.Payload = {
       position: 'Backend Engineer',
       startedAt: '2024-09',
       descriptions: [
-        'Developed and deployed backend infrastructure for Tmax WAPL, a comprehensive collaboration platform aimed at improving workplace efficiency and enabling real-time communication, based on a microservices architecture (MSA).',
+        'Developed and deployed backend infrastructure for Tmax WAPL, a comprehensive collaboration platform aimed at improving workplace efficiency and enabling real-time communication, based on a microservices architecture (MSA) within an 11-member team.',
         'Implemented scheduling functionality utilizing a Netty-based in-house Java backend framework, supporting the efficient creation, deletion, and retrieval of schedules.',
       ],
       skillKeywords: ['Java', 'Tibero', 'Docker', 'Kubernetes'],
