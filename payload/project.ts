@@ -171,7 +171,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'Construction of a Kubernetes Cluster',
+      title: 'On-premise Kubernetes Cluster',
       startedAt: '2023-08',
       endedAt: '2023-09',
       where: 'Personal Project',
