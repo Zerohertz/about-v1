@@ -14,50 +14,59 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content: 'Established a Jenkins-based CI/CD pipeline.',
-          href: 'https://github.com/Zerohertz/zerohertzLib/blob/v1.1.3/Jenkinsfile',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284292801-35b6affc-eb9d-43c9-abf9-4c82b2963d39.png',
-        },
-        {
-          content: 'Implemented documentation through Sphinx.',
-          href: 'https://zerohertz.github.io/zerohertzLib/',
-          postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/a7adb2d3-defd-4cf6-956a-af46a0b31b29',
-        },
-        {
-          content: 'Distributed the library via GitHub & PyPI.',
+          content:
+            'To reduce time consumption and inefficiency from reimplementing commonly used functions, developed and published a custom Python library on PyPI and GitHub Releases to enhance efficiency and code reusability across projects.',
           href: 'https://pypi.org/project/zerohertzLib/',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/b2c20fd1-8cce-4117-84a4-76035336ef4f',
         },
         {
-          content: 'Migrated CI/CD pipeline from Jenkins to GitHub Actions.',
+          content:
+            'Built a GitHub Actions-based CI/CD pipeline (migrated from Jenkins) to automate repetitive tasks such as formatting, unit testing, and deployment, streamlining the process for feature additions and bug fixes.',
           href: 'https://github.com/Zerohertz/zerohertzLib/actions',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/e310ad4e-aaed-4808-9067-fff71ea40fbf',
+        },
+        {
+          content:
+            'To prevent unnecessary deployments from non-production changes like documentation updates, implemented a detailed branching strategy on GitHub and set up dedicated pipelines for code segregation.',
+          postImage:
+            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284292801-35b6affc-eb9d-43c9-abf9-4c82b2963d39.png',
+        },
+        {
+          content:
+            'Simplified version tracking by building a pipeline using the GitHub API and Jenkins to automatically generate and publish release notes to GitHub Releases, improving transparency across development cycles.',
+        },
+        {
+          content:
+            'Ensured easy access to comprehensive project guidelines and function usage by creating a Sphinx-based documentation pipeline, deploying it via GitHub Pages for consistent and up-to-date project documentation.',
+          href: 'https://zerohertz.github.io/zerohertzLib/',
+          postImage:
+            'https://github.com/Zerohertz/Zerohertz/assets/42334717/a7adb2d3-defd-4cf6-956a-af46a0b31b29',
         },
       ],
     },
     {
       title: 'Python Library for Pre/Post-Processing, Visualization, and Model Backend',
       startedAt: '2023-10',
+      endedAt: '2024-09',
       where: 'AgileSoDA',
       descriptions: [
         {
           content:
-            'Performed documentation of functions and classes within the library based on Docstring.',
-        },
-        {
-          content: 'Maintained the integrity of the library through type hints and PyTest.',
+            'Packaged frequently used classes and functions within the model backend into a Python library to streamline development processes.',
         },
         {
           content:
-            'Standardized the preprocessing of various document images and visualization of model inference results.',
+            'Utilized Docstring to document functions and classes, enhancing code clarity and team collaboration, while maintaining library integrity through type hints and PyTest.',
         },
         {
           content:
-            'Improved the post-processing speed of the text detection model through algorithm enhancements using Cython. (inference time decreased by 74.12%)',
+            'Faced with significant compatibility issues due to inconsistent libraries and formats for model outputs, standardized the data format for preprocessing and model inference visualization, enabling consistent visualization and resolving unexpected compatibility problems.',
+        },
+        {
+          content:
+            'Addressed inefficiencies in post-processing due to Python-native functions with high time complexity by optimizing them with Cython-native functions and improving time complexity. (inference time decreased by 74.12%)',
           href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
@@ -71,10 +80,12 @@ const project: IProject.Payload = {
     {
       title: 'AI-based OCR Solution, TwinReader',
       startedAt: '2023-02',
+      endedAt: '2024-09',
       where: 'AgileSoDA',
       descriptions: [
         {
-          content: 'Developed a Kubernetes-based Triton Inference Server for model deployment.',
+          content:
+            'Developed models for document area detection, rotated document classification, and detection of text, signatures, and checkboxes, along with a Python backend for model deployment.',
         },
         {
           content:
@@ -84,26 +95,22 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Fixed critical flaws in the Triton Inference Server. (GPU Memory reduced by 47.9%)',
+            'Faced with excessive GPU usage during model deployment, resolved the issue by identifying and fixing a memory leak through GPU resource monitoring and logging. (GPU memory usage reduced by 47.9%)',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
         },
         {
           content:
-            'Enhanced inference time of the text detection model using TensorRT. (inference time decrease by 87.31%)',
+            'Reduced inference time for a text detection model, where frequent calls made optimization critical, by utilizing TensorRT-based quantization. (inference time decreased by 87.31%)',
           href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
         },
         {
           content:
-            'Solved misclassification issues of rotated documents through model structural improvements. (accuracy improved by 2.01%)',
+            'Encountered low accuracy in document rotation classification, addressed by performing batch inference on image tensors rotated in four directions and averaging the results. (improved accuracy by 2.01%p)',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
-        },
-        {
-          content:
-            'Developed models for document area detection, rotated document classification, and detection of text, signatures, checkboxes.',
         },
       ],
     },
@@ -115,18 +122,19 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Developed an AI OCR-based document classification pipeline for categorizing unstructured document data.',
-        },
-        {
-          content: 'Accelerated data annotation through Label Studio SDK and pre-labeling.',
+            'Performed clustering, annotation, preprocessing, training, and deployment to develop a model for extracting information from a wide variety of trade document formats.',
         },
         {
           content:
-            'Developed a Streamlit-based GUI for reviewing through annotations with challenging requirements.',
+            'Faced with the challenge of categorizing large volumes of unstructured PDF documents, developed an AI OCR-based pipeline utilizing OCR results and LLM prompting to efficiently classify and sort documents (achieved 93.75% accuracy).',
         },
         {
           content:
-            'Developed models tailored to the specific needs of clients and types of trade documents.',
+            'To address the high time and cost demands of large-scale data annotation requiring expert knowledge, accelerated the process by implementing pre-labeling through an ML backend using Label Studio SDK, significantly reduced annotation time and costs.',
+        },
+        {
+          content:
+            'Encountered difficulties in manually checking complex human errors during annotation review, developed a Streamlit-based GUI to allow easy detection and correction of these errors through simple configurations.',
         },
       ],
     },
@@ -180,6 +188,29 @@ const project: IProject.Payload = {
           href: 'https://zerohertz.github.io/tags/home-server/',
           postImage:
             'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/260747675-647d4089-f58f-4a46-b580-ed2760f52623.png',
+        },
+        {
+          content:
+            'Installed Kubernetes using Kubeadm on an on-premise environment to enhance understanding of Kubernetes architecture and practical usage.',
+        },
+        {
+          content:
+            'Secured deployed services by implementing HTTPS protocol and Google OAuth2 through Traefik.',
+        },
+        {
+          content:
+            'Established GitOps by automating build and deployment processes using GitHub Actions and Argo CD.',
+        },
+        {
+          content:
+            'Built a node status monitoring GUI leveraging Node Exporter, Prometheus, and Grafana.',
+        },
+        {
+          content:
+            'Automated various tasks using Apache Airflow integrated with KubernetesPodOperator.',
+        },
+        {
+          content: 'Set up a Docker image build and deployment pipeline using Jenkins and Kaniko.',
         },
       ],
     },

@@ -4,6 +4,23 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
+      title: 'Technical Blog\n(zerohertz.github.io)',
+      descriptions: [
+        {
+          content:
+            'Customized a technical blog based on the Hexo NexT theme to document and share solutions to challenges encountered during personal learning and professional work.',
+          weight: 'REGULAR',
+          href: 'https://github.com/Zerohertz/zerohertz.github.io',
+        },
+        {
+          content:
+            'Achieved 1,500 MAU and 2,600 monthly page views by consistently writing over 200 posts since 2018.',
+          weight: 'REGULAR',
+          href: 'https://zerohertz.github.io/',
+        },
+      ],
+    },
+    {
       title: 'Awesome 병역 특례',
       descriptions: [
         {
