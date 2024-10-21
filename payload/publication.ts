@@ -48,7 +48,7 @@ const publication: IPublication.Payload = {
               weight: 'MEDIUM',
             },
             {
-              content: 'Journal: Measurement [JCR Top 17.19%]',
+              content: 'Journal: Measurement [SCI(E), Impact Factor 5.60, JCR Top 17.19%]',
               weight: 'MEDIUM',
             },
           ],
@@ -71,7 +71,8 @@ const publication: IPublication.Payload = {
               weight: 'MEDIUM',
             },
             {
-              content: 'Journal: Journal of Computational Design and Engineering [JCR Top 10.87%]',
+              content:
+                'Journal: Journal of Computational Design and Engineering [SCI(E), Impact Factor 6.16, JCR Top 10.87%]',
               weight: 'MEDIUM',
             },
           ],
