@@ -14,7 +14,7 @@ const introduce: IIntroduce.Payload = {
     "I integrated project source codes using Git Submodule to create a seamless collaborative environment. I also introduced MLOps tools like DVC and MLflow into the team's workflow, greatly improving collaboration on data and models and fostering a productive team atmosphere.",
   ],
   sign: 'Zerohertz',
-  latestUpdated: '2024-10-21',
+  latestUpdated: '2024-10-23',
 };
 
 export default introduce;
