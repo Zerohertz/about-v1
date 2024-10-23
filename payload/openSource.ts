@@ -21,12 +21,12 @@ const openSource: IOpenSource.Payload = {
       title: 'Awesome 병역 특례',
       descriptions: [
         {
-          content: 'awesome-jmy',
+          content: 'Zerohertz/awesome-jmy (GitHub)',
           href: 'https://github.com/Zerohertz/awesome-jmy',
           postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-jmy.svg?style=popout',
         },
         {
-          content: 'awesome-sgy',
+          content: 'Zerohertz/awesome-sgy (GitHub)',
           href: 'https://github.com/Zerohertz/awesome-sgy',
           postImage: 'https://img.shields.io/github/stars/Zerohertz/awesome-sgy.svg?style=popout',
         },
