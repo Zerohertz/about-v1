@@ -23,20 +23,17 @@ const project: IProject.Payload = {
         {
           content:
             'To reduce time consumption and inefficiency from reimplementing commonly used functions, developed and published a custom Python library on PyPI and GitHub Releases to enhance efficiency and code reusability across projects.',
-          postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/b2c20fd1-8cce-4117-84a4-76035336ef4f',
+          postImage: 'images/dacp-0.png',
         },
         {
           content:
             'Built a GitHub Actions-based CI/CD pipeline (migrated from Jenkins) to automate repetitive tasks such as formatting, unit testing, and deployment, streamlining the process for feature additions and bug fixes.',
-          postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/e310ad4e-aaed-4808-9067-fff71ea40fbf',
+          postImage: 'images/dacp-1.png',
         },
         {
           content:
             'To prevent unnecessary deployments from non-production changes like documentation updates, implemented a detailed branching strategy on GitHub and set up dedicated pipelines for code segregation.',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/284292801-35b6affc-eb9d-43c9-abf9-4c82b2963d39.png',
+          postImage: 'images/dacp-2.png',
         },
         {
           content:
@@ -45,8 +42,7 @@ const project: IProject.Payload = {
         {
           content:
             'Ensured easy access to comprehensive project guidelines and function usage by creating a Sphinx-based documentation pipeline, deploying it via GitHub Pages for consistent and up-to-date project documentation.',
-          postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/a7adb2d3-defd-4cf6-956a-af46a0b31b29',
+          postImage: 'images/dacp-3.png',
         },
       ],
     },
@@ -72,8 +68,7 @@ const project: IProject.Payload = {
           content:
             'Addressed inefficiencies in post-processing due to Python-native functions with high time complexity by optimizing them with Cython-native functions and improving time complexity. (inference time decreased by 74.12%)',
           href: 'https://github.com/Zerohertz/pan_pp.pytorch/tree/SpeedImprovement',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282500746-76966f28-efac-49cf-9a4d-3bc9560bad4c.png',
+          postImage: 'images/plfp-0.png',
         },
         {
           content:
@@ -98,27 +93,23 @@ const project: IProject.Payload = {
         {
           content:
             'Implemented a pipeline using GitLab CI and Kubernetes to separate backend dependencies from code and weights, deploying through the Kubernetes sidecar pattern, which resolved versioning challenges and significantly reduced build times for the model backend.',
-          postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/6a906566-f23f-4eea-8781-f0473d12c413',
+          postImage: 'images/abos-0.png',
         },
         {
           content:
             'Faced with excessive GPU usage during model deployment, resolved the issue by identifying and fixing a memory leak through GPU resource monitoring and logging. (GPU memory usage reduced by 47.9%)',
-          postImage:
-            'https://github.com/Zerohertz/Zerohertz/assets/42334717/3f36b1fb-7213-4d79-b3dd-0a3938a5285a',
+          postImage: 'images/abos-1.png',
         },
         {
           content:
             'Reduced inference time for a text detection model, where frequent calls made optimization critical, by utilizing TensorRT-based quantization. (inference time decreased by 87.31%)',
           href: 'https://github.com/Zerohertz/PANPP/tree/TensorRT',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282501186-e0440b91-cb4d-449e-a4ba-85d284fff658.png',
+          postImage: 'images/abos-2.png',
         },
         {
           content:
             'Encountered low accuracy in document rotation classification, addressed by performing batch inference on image tensors rotated in four directions and averaging the results. (improved accuracy by 2.01%p)',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/282508245-61cda1fc-671f-48b4-92e6-30754f70d1eb.png',
+          postImage: 'images/abos-3.png',
         },
       ],
     },
@@ -173,8 +164,7 @@ const project: IProject.Payload = {
         {
           content:
             'Designed and developed an API for model deployment using Triton Inference Server.',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/278788717-4639cd97-0363-4d66-8f84-a1ade9a80177.png',
+          postImage: 'images/adsf-0.png',
         },
       ],
     },
@@ -188,14 +178,12 @@ const project: IProject.Payload = {
           content: 'Zerohertz/k8s-on-premise (GitHub)',
           weight: 'MEDIUM',
           href: 'https://github.com/Zerohertz/k8s-on-premise',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/279639181-6d0a07c4-a99f-43f3-8632-236ecac7ced9.png',
+          postImage: 'images/opkc-0.png',
         },
         {
           content: 'Blog posts',
           href: 'https://zerohertz.github.io/tags/home-server/',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/260747675-647d4089-f58f-4a46-b580-ed2760f52623.png',
+          postImage: 'images/opkc-1.png',
         },
         {
           content:
@@ -232,14 +220,12 @@ const project: IProject.Payload = {
           content: 'Team-BoonMoSa (GitHub)',
           weight: 'MEDIUM',
           href: 'https://github.com/Team-BoonMoSa',
-          postImage:
-            'https://user-images.githubusercontent.com/42334717/227575043-5c65230c-f283-46b0-a46c-0569ee20cd56.gif',
+          postImage: 'images/mc-0.gif',
         },
         { content: 'Developed a YOLOv5 based logo segmentation model.' },
         {
           content: 'Constructed a model deployment server on Amazon EC2 Inf1.',
-          postImage:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/42334717/253738363-d1cbc5e5-e0a1-4763-adeb-6657568a6a85.png',
+          postImage: 'images/mc-1.png',
         },
       ],
     },
