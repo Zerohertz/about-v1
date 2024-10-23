@@ -5,13 +5,13 @@ const introduce: IIntroduce.Payload = {
 
   contents: [
     '🌱 Continuously Growing Engineer',
-    'Passionate about learning and growth, I manage a technical blog featuring over 200 articles on various topics, including Kubernetes, PyTorch, and Airflow. Additionally, I participate in more than 10 study groups. I take great pleasure in delving into the core principles of technology and leveraging them to address real-world challenges.',
+    'With a passion for learning and growth, I have been running a technical blog since 2018 on topics like Kubernetes, PyTorch, and Airflow, achieving 1,500+ monthly active users (MAU). I have participated in 10+ study groups, enjoying exploring the core principles of technology and applying them to solve real-world challenges.',
 
     '🚀 Efficiency-Maximizing Engineer',
-    'I strive to automate inefficient repetitive processes and seek more efficient methods for operational improvement. I have developed libraries for frequently used functionalities and built a sustainable deployment system through the construction of CI/CD pipelines.',
+    'I automate inefficient repetitive tasks and seek efficient methods for operational improvement. I developed a Python backend for model serving and optimized pipelines to enhance efficiency. By utilizing GitLab CI and Kubernetes, I built pipelines and deployed using the sidecar pattern, resolving version control issues and significantly reducing build times.',
 
     '🫂 Collaboration-Focused Engineer',
-    'I have integrated project source codes using Git Submodules to facilitate a smooth collaborative environment. Additionally, I have incorporated MLOps tools such as DVC and MLflow into team workflows, significantly improving our collaborative efforts on data and models, and fostering a productive team environment.',
+    "I integrated project source codes using Git Submodule to create a seamless collaborative environment. I also introduced MLOps tools like DVC and MLflow into the team's workflow, greatly improving collaboration on data and models and fostering a productive team atmosphere.",
   ],
   sign: 'Zerohertz',
   latestUpdated: '2024-10-21',

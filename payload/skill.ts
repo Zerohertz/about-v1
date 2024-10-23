@@ -131,6 +131,10 @@ const database: ISkill.Skill = {
       title: 'MySQL',
       level: 1,
     },
+    {
+      title: 'Redis',
+      level: 1,
+    },
   ],
 };
 

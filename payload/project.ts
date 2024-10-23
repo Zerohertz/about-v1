@@ -11,19 +11,24 @@ const project: IProject.Payload = {
         {
           content: 'Zerohertz/zerohertzLib (GitHub)',
           href: 'https://github.com/Zerohertz/zerohertzLib',
-          weight: 'MEDIUM',
+        },
+        {
+          content: 'Python Library (PyPI)',
+          href: 'https://pypi.org/project/zerohertzLib/',
+        },
+        {
+          content: 'Docs (Sphinx)',
+          href: 'https://zerohertz.github.io/zerohertzLib/',
         },
         {
           content:
             'To reduce time consumption and inefficiency from reimplementing commonly used functions, developed and published a custom Python library on PyPI and GitHub Releases to enhance efficiency and code reusability across projects.',
-          href: 'https://pypi.org/project/zerohertzLib/',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/b2c20fd1-8cce-4117-84a4-76035336ef4f',
         },
         {
           content:
             'Built a GitHub Actions-based CI/CD pipeline (migrated from Jenkins) to automate repetitive tasks such as formatting, unit testing, and deployment, streamlining the process for feature additions and bug fixes.',
-          href: 'https://github.com/Zerohertz/zerohertzLib/actions',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/e310ad4e-aaed-4808-9067-fff71ea40fbf',
         },
@@ -35,12 +40,11 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Simplified version tracking by building a pipeline using the GitHub API and Jenkins to automatically generate and publish release notes to GitHub Releases, improving transparency across development cycles.',
+            'Simplified version tracking by building a pipeline using the GitHub API to automatically generate and publish release notes to GitHub Releases, improving transparency across development cycles.',
         },
         {
           content:
             'Ensured easy access to comprehensive project guidelines and function usage by creating a Sphinx-based documentation pipeline, deploying it via GitHub Pages for consistent and up-to-date project documentation.',
-          href: 'https://zerohertz.github.io/zerohertzLib/',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/a7adb2d3-defd-4cf6-956a-af46a0b31b29',
         },
@@ -89,7 +93,11 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Resolved source and version control challenges during Triton Inference Server deployment by improving the architecture using GitLab CI and Kubernetes.',
+            'Integrated project source codes using Git Submodule to facilitate a smooth collaborative environment.',
+        },
+        {
+          content:
+            'Implemented a pipeline using GitLab CI and Kubernetes to separate backend dependencies from code and weights, deploying through the Kubernetes sidecar pattern, which resolved versioning challenges and significantly reduced build times for the model backend.',
           postImage:
             'https://github.com/Zerohertz/Zerohertz/assets/42334717/6a906566-f23f-4eea-8781-f0473d12c413',
         },
@@ -126,7 +134,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Faced with the challenge of categorizing large volumes of unstructured PDF documents, developed an AI OCR-based pipeline utilizing OCR results and LLM prompting to efficiently classify and sort documents (achieved 93.75% accuracy).',
+            'Faced with the challenge of categorizing large volumes of unstructured PDF documents, developed an AI OCR-based pipeline utilizing OCR results and LLM prompting to efficiently classify and sort documents. (achieved 93.75% accuracy)',
         },
         {
           content:
