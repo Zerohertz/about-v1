@@ -9,14 +9,16 @@ const education: IEducation.Payload = {
       subTitle: 'M.S. in Mechanical Design and Production Engineering',
       startedAt: '2021-03',
       endedAt: '2023-02',
-      // descriptions: [
-      //   {
-      //     content:
-      //       'Thesis: A study on feature variable density for a highly efficient diagnosis model of rotary machine in roll-to-roll continuous process',
-      //   },
-      //   { content: 'Advisor: Changwoo Lee' },
-      //   { content: 'GPA: 4.15 / 4.5' },
-      // ],
+      descriptions: [
+        {
+          content:
+            'Thesis: A study on feature variable density for a highly efficient diagnosis model of rotary machine in roll-to-roll continuous process',
+          href:
+            'https://konkuk.dcollection.net/public_resource/pdf/200000652381_20241031221138.pdf',
+        },
+        { content: 'Advisor: Changwoo Lee' },
+        { content: 'GPA: 4.15 / 4.5' },
+      ],
     },
     {
       title: 'Konkuk University, Seoul, Korea',
