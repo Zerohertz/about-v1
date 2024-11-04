@@ -7,13 +7,16 @@ const openSource: IOpenSource.Payload = {
       title: 'Technical Blog',
       descriptions: [
         {
+          content: 'Zerohertz',
+          href: 'https://zerohertz.github.io/',
+        },
+        {
           content:
             'Customized a technical blog based on the Hexo NexT theme to document and share solutions to challenges encountered during personal learning and professional work.',
         },
         {
           content:
             'Achieved 1,500 MAU and 2,600 monthly page views by consistently writing over 200 posts since 2018.',
-          href: 'https://zerohertz.github.io/',
         },
       ],
     },
@@ -36,14 +39,16 @@ const openSource: IOpenSource.Payload = {
       title: 'bytedance/SPTSv2',
       descriptions: [
         {
+          content: 'bytedance/SPTSv2 (GitHub)',
+          href: 'https://github.com/bytedance/SPTSv2/pulls?q=author%3AZerohertz',
+          postImage: 'https://img.shields.io/github/stars/bytedance/SPTSv2.svg?style=popout',
+        },
+        {
           content: 'Resolving Python dependencies.',
-          href: 'https://github.com/bytedance/SPTSv2/pull/1',
         },
         {
           content:
             'Solving tensor dimension erros and generalizing prediction, evaluation, and visualization.',
-          href: 'https://github.com/bytedance/SPTSv2/pull/3',
-          postImage: 'https://img.shields.io/github/stars/bytedance/SPTSv2.svg?style=popout',
         },
       ],
     },
