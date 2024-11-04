@@ -127,12 +127,10 @@ function getFontWeight(weight?: IRow.Description['weight']): CSSProperties {
   };
 }
 
-// Noto Sans KR Weights: 300, 400, 500, 700
 const fontWeight: Record<IRow.FontWeightType, number> = {
-  DEFAULT: 300,
-  LIGHT: 300,
-  REGULAR: 300,
-  MEDIUM: 500,
-  // BOLD: 700,
-  BOLD: 500,
+  LIGHT: 500,
+  DEFAULT: 600,
+  REGULAR: 600,
+  MEDIUM: 700,
+  BOLD: 900,
 };
