@@ -8,12 +8,12 @@ export default function SkillRow({
   skill,
   index,
 }: PropsWithChildren<{ skill: ISkill.Skill; index: number }>) {
-  const [isMobileScreen, setIsMobileScreen] = useState(false);
+  const [isVerticalScreen, setIsVerticalScreen] = useState(false);
 
   useEffect(() => {
-    setIsMobileScreen(window.innerWidth < 768);
+    setIsVerticalScreen(window.innerWidth < 768);
     const handleResize = () => {
-      setIsMobileScreen(window.innerWidth < 768);
+      setIsVerticalScreen(window.innerWidth < 768);
     };
     window.addEventListener('resize', handleResize);
     return () => {
@@ -30,7 +30,7 @@ export default function SkillRow({
         </Col>
         <Col sm={12} md={9}>
           {/* {skill.items.map((item) => JSON.stringify(item, null, 2))} */}
-          {createCalculatedSkillItems(skill.items, isMobileScreen)}{' '}
+          {createCalculatedSkillItems(skill.items, isVerticalScreen)}{' '}
           {/* isVerticalScreen을 인자로 전달 */}
         </Col>
       </Row>
